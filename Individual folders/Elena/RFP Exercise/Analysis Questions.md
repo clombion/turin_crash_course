@@ -5,6 +5,7 @@ Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-dri
 * Use data to target the solution and to optimise the process (**data-driven**)
 
 **What are the risks?**
+* **sustainability**: how can my solution keep creating value for the community even after it ends?
 * Lack of budget to make the solution scalable in the long term
 * Low Scalability of the proposed solution due to, for example, technological disparities, very complicated solution and so on
 * Lack of data (remote locations) and challenges to obtain them
