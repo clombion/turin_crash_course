@@ -4,6 +4,5 @@
 * I am from Spain
 * It is a very sunny day
   * Messi is the best player of all time
-
-    - [] Yes
-    - [] Yes
+-[] Yes
+-[] Yes
