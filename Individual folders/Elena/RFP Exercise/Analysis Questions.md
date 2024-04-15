@@ -1,10 +1,11 @@
 **What is the intent?**
 
-Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-driven solutions to reduce the barriers to access health infrastuctures in remote areas thus improving global health and reducing disparities in health
- infrastructure accessibility.
+Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-driven solutions to reduce the barriers to access health infrastuctures in remote areas thus improving global health and reducing disparities in health infrastructure accessibility.
+* Present more than one location where the solution will be implemented (**scalability**)
+* Use data to target the solution and to optimise the process (**data-driven**)
 
 **What are the risks?**
-* Low Scalability of the proposed solution due to very different geographical contexts
+* Low Scalability of the proposed solution
 * Lack of data (remote locations) and challenges to obtain them
 * Data Privacy?
 * Language barriers?
