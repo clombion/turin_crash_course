@@ -5,6 +5,9 @@ Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-dri
 
 **What are the risks?**
 * Low Scalability of the proposed solution due to very different geographical contexts
+* Lack of data (remote locations) and challenges to obtain them
+* Data Privacy?
+* Language barriers?
 
 **What should a good response to this RFP contain?**
 * Data ideas:
