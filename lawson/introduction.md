@@ -1,4 +1,4 @@
 # This is the first introduction
-* text 1
-* text 2
-* Text 3
+* I'm from Togo
+* Living in Guinea
+* Studying in Italy
