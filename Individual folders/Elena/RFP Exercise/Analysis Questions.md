@@ -1,4 +1,4 @@
-****What is the intent?**
+**What is the intent?**
 
 Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-driven solutions to reduce the barriers to access health infrastuctures in remote areas thus improving global health and reducing disparities in health
  infrastructure accessibility.
@@ -6,7 +6,7 @@ Civic Literacy Initiative (CLI) aims at finding innovative and scalable data-dri
 **What are the risks?**
 
 **What should a good response to this RFP contain?**
-Data ideas
-Technology ideas
-Methodology ideas
+* Data ideas:
+* Technology ideas:
+* Methodology ideas:
 
