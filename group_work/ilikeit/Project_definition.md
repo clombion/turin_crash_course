@@ -9,7 +9,7 @@ The mapping and the creation of disaster plans can guide and strength the health
 Find data from the national health system with locations of all heath infrastructures & population to map it. 
 # Find	
 ## Data sources
-* Openstreet map and geospatial data.
+* Openstreet map and geospatial data
 * Data collection from National Health system
 ## Contextual resources
 [Link with information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8555362/)
