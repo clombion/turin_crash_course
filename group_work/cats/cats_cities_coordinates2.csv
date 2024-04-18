@@ -1,12 +1,8 @@
 lat, long, city, addresstype
-49.6124294,6.1305758,Country,shop
-49.600686,6.1306078,Country,amenity
-43.2616855,-2.937186,City,office
 35.6821936,139.762221,東京都,province
 28.6273928,77.1716954,Delhi,state
-31.2323437,121.4691024,上海市,city
 31.2312707,121.4700152,上海市,state
-26.0701988,119.2907523,上海街道,suburb
+31.2323437,121.4691024,上海市,city
 -23.5506507,-46.6333824,São Paulo,municipality
 -22.0702705,-48.4333875,São Paulo,state
 -1.2043218,-47.1583944,São Paulo,suburb
@@ -60,7 +56,9 @@ lat, long, city, addresstype
 48.8588897,2.3200410217200766,Paris,suburb
 48.8534951,2.3483915,Paris,city
 48.8588897,2.3200410217200766,Paris,city_district
-
+4.6529539,-74.0835643,Bogotá, Distrito Capital,city
+4.6533816,-74.0836333,Bogotá,city
+4.6529539,-74.0835643,Bogotá Distrito Capital - Municipio,city
 -6.175247,106.8270488,Daerah Khusus Jakarta,city
 13.0836939,80.270186,Chennai,city
 -12.0621065,-77.0365256,Lima Metropolitana,city
