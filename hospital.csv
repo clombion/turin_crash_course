@@ -1,0 +1,6 @@
+osm_type, type, class, lat, lon, addresstype, name, display_name
+"\"node\",\"hospital\",\"amenity\",\"10.4041837\",\"-67.2855308\",\"amenity\",\"Hospital\",\"Hospital, Vía a Capachalito, Medicatura, Colonia Tovar, Parroquia Tovar, Municipio Tovar, Aragua, 1030, Venezuela\""
+"\"node\",\"pharmacy\",\"amenity\",\"9.2435644\",\"-70.2713653\",\"amenity\",\"Farmacia Hospital\",\"Farmacia Hospital, T-7, Casco Central, Parroquia Boconó, Municipio Boconó, Trujillo, 3103, Venezuela\""
+"\"node\",\"bus_stop\",\"highway\",\"10.4840563\",\"-66.9707518\",\"highway\",\"Hospital\",\"Hospital, Avenida Principal de El Algodonal, Urbanización El Algodonal, Carapita, Caracas, Parroquia Antímano, Municipio Libertador, Distrito Capital, 1020, Venezuela\""
+"\"node\",\"bus_stop\",\"highway\",\"9.7409864\",\"-63.1989422\",\"highway\",\"Hospital\",\"Hospital, Avenida Bicentenario, Alberto Ravell, Maturín, Parroquia San Simón, Municipio Maturín, Monagas, 6201, Venezuela\""
+"\"node\",\"bus_stop\",\"highway\",\"10.2193618\",\"-64.6369145\",\"highway\",\"Hospital\",\"Hospital, Calle Juncal, Centro, Puerto La Cruz, Parroquia La Cruz, Municipio Sotillo, Anzoátegui, 6023, Venezuela\""
