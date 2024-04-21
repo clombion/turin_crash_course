@@ -23,6 +23,7 @@ The mapping and the identification of UHIs can provide guidance to modify those 
 # Find	
 ## Data sources
 * Openstreet map and geospatial data
+* Studies and information with solutions to avoud UHIs
 * [UHI information](https://www.mdpi.com/2073-4433/12/7/917)
 * Data collection weather hystory and forecast
 * Identify heat points where vulnerable population are located.
@@ -34,6 +35,15 @@ The mapping and the identification of UHIs can provide guidance to modify those 
 
 
 # Get
+
+* Sacar informacion de las zonas con poblaciones es estado de vulnerabilidad, poder identificar las areas y crear un mapa.
+  *   We classified the data through 3 ranges: (1) a low socioeconomic classification considering TWi values between 0.1 and 0.4; (2) an average socioeconomic classification with TWi values between 0.5 and 0.7; and (3) a high socioeconomic classification consisting of TWi values between 0.8 and 1.
+* Sacar informacion meteorologica de las ciudades y las regiones
+* Sacar basandose en estudios, formas de paliar las zonas de calor.
+* Mezclar todo y teniendo identificadas las zonas, crear propuestas basadas en estudios. 
+
+
+
 ## steps
 # Verify
 ## steps
