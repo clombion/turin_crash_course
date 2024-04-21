@@ -10,14 +10,16 @@ When we talk about "Urban Heat Islands for Vulnerable Populations," we refer to 
 This situation could lead in health problems as heat strokers or dehydaration. 
 
 # Project description
-Project aims to support national health system in order to develop plans and implement actions for emergency situations (Earthquakes, floods, tsunamis, fire...), and be able to execute quick solutions and provide health support in rural areas to it's population. 
+Project aims to identify urban areas affected by UHIs impacting vulnerable populations. The proposal will propose and develop actionable strategies based on geospatial and weather data to reduce disparities and improve conditions.
+
 # Define
 ## Research question
-How to optimize the distribution and access to health infrastructure in rural areas during climate emergencies to guarantee an effective response?
+How to change conditions and reduce disparities caused by UHIs to improve vulnerable population lives?
 ## Hypotheses
-The mapping and the creation of disaster plans can guide and strength the health system national, so the access to the health infrastructures can be provided or readapted to fulfill the needs.
+The mapping and the identification of UHIs can provide guidance to modify those areas. 
+
 ## Hypothesis notes
-Find data from the national health system with locations of all heath infrastructures & population to map it. 
+**Find data from the national health system with locations of all heath infrastructures & population to map it. **
 # Find	
 ## Data sources
 * Openstreet map and geospatial data
