@@ -19,11 +19,17 @@ How to change conditions and reduce disparities caused by UHIs to improve vulner
 The mapping and the identification of UHIs can provide guidance to modify those areas. 
 
 ## Hypothesis notes
-**Find data from the national health system with locations of all heath infrastructures & population to map it. **
+**Find data from the weather systems (forecast and historic) by locations. Areas with high density of vulnerable population to map it. Idenitfy possible solutions and the available resources in the area **
 # Find	
 ## Data sources
 * Openstreet map and geospatial data
-* Data collection from National Health system
+* [UHI information](https://www.mdpi.com/2073-4433/12/7/917)
+* Data collection weather hystory and forecast
+* Identify heat points where vulnerable population are located.
+* UHIs information
+* Available resources in the area (forests, parks, rivers, sea... )
+
+
 ## Contextual resources
 
 
