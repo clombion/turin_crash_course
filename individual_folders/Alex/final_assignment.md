@@ -31,6 +31,14 @@ The mapping and the identification of UHIs can provide guidance to modify those 
 * Available resources in the area (forests, parks, rivers, sea... )
 
 
+#Investigation Indicators to identify groups of people such as the homeless, migrants, elderly individuals, young children 
+* Poverty
+* Health
+* Education
+* Migration
+* Home access
+* Food security
+* Violence & conflicts
 ## Contextual resources
 
 
