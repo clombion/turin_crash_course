@@ -42,5 +42,7 @@ To get full points on your assignment, you are expected to
 
 ## Notes
 * Your technical steps must include a Jupyter notebook and code to request an API. The choice of tools for cleaning and analysing the data is yours
-* Until the deadline, any question or any help request is accepted and will not reflect on your final grade. This includes pull requests sent for review.
 * Your pull request should have your assignment inside your personal folder in the shared repository
+* Until the deadline, any question or any help request is accepted and will not reflect on your final grade. This includes pull requests sent for review.
+* **Bonus points:** Up to 2 bonus points will be granted if you contribute a new API documentation in the collaborative API library. This contribution should be done through a pull request.
+
