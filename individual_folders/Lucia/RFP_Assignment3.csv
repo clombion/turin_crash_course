@@ -1,0 +1,11 @@
+name,addresstype,lat,lon,state,max_temperature,Year,Refugees under UNHCR's mandate,Asylum-seekers,Other people in need of international protection
+São Paulo,municipality,-23.5506507,-46.6333824,Brazil,35.5°C,2022,67522,206764,264040
+Buenos Aires,city,-34.6037181,-58.38153,Argentina,36.4°C,2022,4094,11100,165174
+Santiago,city,-33.4377756,-70.6504502,Chile,34°C,2022,2133,11896,436845
+Lima Metropolitana,city,-12.0621065,-77.0365256,Peru,31°C,2022,6543,537461,969817
+Mumbai City District,city,18.9733536,72.82810491917377,India,39°C,2022,242835,15794,-
+Kerala,state,10.3528744,76.5120396,India,34.1°C,2022,242835,15794,-
+New Delhi District,city,28.6138954,77.2090057,India,44°C,2022,242835,15794,-
+Lagos,city,6.4550575,3.3941795,Nigeria,36°C,2022,91275,1623,-
+Nairobi,city,-1.3026148499999999,36.82884201813725,Kenya,28°C,2022,504473,69011,-
+Lusaka Province,state,-15.357609,29.1653092,Zambia,38.4°C,2022,61159,2774,-
