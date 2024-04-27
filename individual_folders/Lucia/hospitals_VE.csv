@@ -1,6 +1,0 @@
-osm_type,type,addresstype,name
-"node","hospital","amenity","Hospital"
-"node","pharmacy","amenity","Farmacia Hospital"
-"node","bus_stop","highway","Hospital"
-"node","bus_stop","highway","Hospital"
-"node","bus_stop","highway","Hospital"
