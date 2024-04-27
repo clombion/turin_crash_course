@@ -1,0 +1,8 @@
+Brazil,BRA,South America
+Argentina,ARG,South America
+Chile,CHL,South America
+Peru,PER,South America
+India,IND,Asia
+Nigeria,NGA,Africa
+Kenya,KEN,Africa
+Zambia,ZMB,Africa
