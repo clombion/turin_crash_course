@@ -1,0 +1,11 @@
+name,addresstype,lat,lon,state,max_temperature
+São Paulo,municipality,-23.5506507,-46.6333824,Brazil,35.5°C
+Buenos Aires,city,-34.6037181,-58.38153,Argentina,36.4°C
+Santiago,city,-33.4377756,-70.6504502,Chile,34°C
+Lima Metropolitana,city,-12.0621065,-77.0365256,Peru,31°C
+Mumbai City District,city,18.9733536,72.82810491917377,India,39°C
+Kerala,state,10.3528744,76.5120396,India,34.1°C
+New Delhi District,city,28.6138954,77.2090057,India,44°C
+Lagos,city,6.4550575,3.3941795,Nigeria,36°C
+Nairobi,city,-1.3026148499999999,36.82884201813725,Kenya,28°C
+Lusaka Province,state,-15.357609,29.1653092,Zambia,38.4°C
