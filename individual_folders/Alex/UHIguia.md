@@ -1,0 +1,149 @@
+|Table 1: Summary of the findings;;;;;;;|
+|---------------------------------------
+--------------------------------------
+-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------
+---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------
+---------
+----------------------------------------------------------------|------------------------------------------------|-------------------------------------------
+--------------------------------------------
+------------------------------|------------------------------------------------------------------
+----------|-------|-------------------------------------------------------------------------------------
+-------------------------------|--------------------------|------------------------------|------------------------------------------------------------------------------------------------------
+------------
+-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------
+-----------------------------------------------------------------------
+------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+-----------------------------------------------
+------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------|-------------------------------
+------------------------------------------------------------------|-------------------
+--------------------------------|-------
+-------------------------------------------------------------------------------|------------------------------------------------------------------------|------|----------
+------------------------------------------------------------------------|-------
+----------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-------
+------------------------------------------------------------------------------------------------|-------|-------------------|------------------------------------------|----
+-----------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------
+--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------|----------------
+-----------------------------------------------------------------------------------------------|-----------------------------------------|-------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------------------------------------|-----------------------------
+--------|---------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------
+-------------------------------------------------------------------------------|---------------------------------------------------
+----------------------------------------------------------|------------------------------------------------------
+-------------------------------------------------------------------------------|------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+-----------------------------------------------------------------------|------|--------------------------------------------------
+-----------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------
+-----------------------------------------------|--------------------------------------|-------------|----------|--------------------------------------------------|-----------------------------------------------------------------------------
+----------------------------------------|------------------------------------------
+------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+--------------
+-------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------
+-------------------|-------------------------------|------------|----------------------
+----------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------|--------|----------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------
+----------------------------------------|------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------
+-----------------------------------------------|-----------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------|-----------|------------|--------------|---------|------------------|---------------------------------------------------------|
+-------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------
+---------
+--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Hsu et al. 2021 25;United States of America;Cross sectional;;;"o  In 86% of the cities in the United States, individuals who  were over  the age of  65 tended to have lower exposure to the UHI effect compared to those who are under the age of 65.|
+|o  Individuals from racial and ethnic minority groups in every age group were exposed to noticeably higher levels of heat compared|
+|to their white counterparts.";;|
+|Robine et al. 2008 40;Europe;Ecological;;;"o  During the period of high mortality, there was  a  notable  difference  in  the  gender distribution   of   deaths.   Specifically,   on August 12th in France and August 13th in Italy, there was a significant increase in the proportion  of  female  deaths,  with  a  21% increase in France and a 14% increase in|
+|Italy.";;|
+|Fouillet et al. 2006 42;France;Ecological;;;"o  As age increased, particularly among those 65 years old and above, there was a higher incidence of mortality.|
+|o  The risk of mortality increased with age.|
+|o  For those aged 45 and older, mortality was 15% higher in women compared to men of the same age|
+|o  Widowed, single, and divorced individuals had  a  higher  mortality  rate  than  married individuals.|
+|o  Cardiovascular      diseases,      respiratory diseases,   nervous   system   diseases,   and other   ill-defined   morbid   disorders   also contributed     significantly     to     higher|
+|mortality";;|
+|Kakkad et al. 2014 26;India;Retrospective Cross-sectional;;;"o  When the temperature reached 42 degrees Celsius   or   higher,   there   was   a   43% increase in the number of new-borns who|
+|required    intensive    care    unit    (ICU) admission due to heat-related issues.";;|
+|Alonso et al. 2020 50;France;Ecological;;;"o  People  aged  75  years  and  over  was  the most vulnerable category to heat waves|
+|o  Women    aged    45–74    were    slightly vulnerable (54%)  than  men  (46%)  in  the same age group|
+|o  Women  aged  75  and  over  were  just  as sensitive (52%) as men (48%)";;|
+|Rocklov et al. 2014 47;Sweden;Ecological;;;"o  Heat   waves   had   a   stronger   effect   on mortality       rates       among       younger individuals,  as  well  as  in  regions  with lower socio-economic status.|
+|o  Individuals  aged  over  80  years  old  were also more susceptible.|
+|o  Women  below  the  age  of  65  but  with history  of  mental  health  hospitalisations, and  individuals  with  prior  cardiovascular disease were at a higher risk of mortality.|
+|o  Rising     summer     temperatures     were associated with mortality in those under 65";;|
+|;;;;;"years old with previous heart attacks and|
+|chronic   obstructive   pulmonary   disease (COPD).";;|
+|Ellena et al. 2020 27;Italy;Ecological;;;"o  The risk of mortality was greater in older individuals  (2.13;  95%  CI  =  1.94,  2.33) during the heat events.|
+|o  The risk of mortality was greater in women (1.88; 95% CI = 1.77, 2.00) and in older|
+|individuals (2.13; 95% CI = 1.94, 2.33).|
+|o  The risk of mortality showed a significant association with education levels, men had a higher risk with higher education levels (1.66; 95% CI = 1.38, 1.99), and women|
+|had  a  higher  risk  with  lower  education levels (1.93; 95% CI = 1.79, 2.08).|
+|o  There   was   a   higher   risk   of   all-cause mortality among widowed men (1.66; 95% CI = 1.38, 2.00) and separated or divorced women (2.11; 95% CI = 1.51, 2.94).|
+|Men  who  lived  alone  have  a  stronger association with mortality risk (1.61; 95% CI  =  1.39,  1.86),  while  for  women,  the results were similar for both groups, who|
+|lived alone and not.";;|
+|Vaidyanathan et al. 2017 55;United States of America;Ecological;;;"o  Individual aged ≥ 65 years had the highest rate of heat-related deaths (0.7 per 100,000 population).|
+|o  70%  of  heat-related  deaths  occurred  in males excepts for infants aged <1 year.|
+|o  Non-Hispanic    American    Indian/Alaska Natives had the highest rate of heat-related deaths (0.6 per 100,000 population).|
+|o  Non-Hispanic   blacks   had   the   second- highest   number   of   heat-related   deaths (1,965)    and    rate    (0.3    per    100,000 population).";;|
+|Ngarambe et al. 2022 45;South Korea;Ecological;;;"o  The   effect   of   rising   temperatures   on mortality  was  more  pronounced  among males and individuals who were ≥ 65 years|
+|old.";;|
+|Huang et al. 2015 46;China;Ecological;;;"o  Individual      factors      that      increased susceptibility    to    the    effects    of    heat included elderly, female, died outside of a hospital    setting,    died    of    respiratory|
+|diseases,   and   had   a   lower   level   of education.";;|
+|Chan et al. 2012 28;Hong Kong;Ecological;;;"o  Women  were  more  vulnerable  to  heat- related mortality.|
+|o  Married  people  were  more  vulnerable  to heat-related mortality.|
+|o  High temperatures had a greater effect on non-cancer related causes of death, such as cardiovascular and respiratory infections.|
+|o  People    lived    in    low    socioeconomic districts,  were  more  vulnerable  to  heat- related mortality.|
+|o  High temperatures had a greater effect on non-cancer related causes of death, such as cardiovascular and respiratory infections.";;|
+|Jesdale et al. 2013 56;United States of America;Ecological;"o  Non-Hispanic   blacks   were   52%   more likelihood (95% CI: 37%, 69%) to live in areas with heat-risk related conditions than non-Hispanic whites.|
+|o  Non-Hispanic  Asians  had  a  32%  higher likelihood  (95%  CI:  18%,  47%),  while Hispanics  had  a  21%  higher  likelihood|
+|(95% CI: 8%, 35%) of living in such areas compared to non-Hispanic whites.";;;;|
+|Wong et al. 2016 60;Hong Kong;Ecological;"o  The risk of being exposed to intense urban heat    island    effect    was    higher    for individuals who were widowed, divorced, or separated.|
+|o  Individuals  who  were  60  years  or  older, had   lower   levels   of   education,   were widow,  divorced,  or  separated  and    had low or  middle incomes,  were at a higher risk of being exposed to intense urban heat island effect.|
+|o  People who have low or middle incomes, were at a higher risk of being exposed to|
+|intense UHI effect.";;;;|
+|Benz et al. 2021 63;United States of America;Ecological;"o  76% of counties in the United States had a higher    burden    of    urban    heating    on|
+|individuals    with    lower    income    and education levels.";;;;|
+|Voelkel et al. 2018 64;United States of America;Ecological;"o  There were strong links between exposure to heat and populations who had minimal education     or     had     limited     English proficiency.|
+|o  There  was  a  notable  correlation  between low-income      populations      and      their susceptibility    to    the    effects    of    heat|
+|exposure.";;;;|
+|Sett et al. 2013 54;India;Cross sectional;"o  The intense summer heat in brickfields led to   physiological   strain   among   female|
+|workers making them more susceptible to UHI phenomenon.";;;;|
+|Wong et al. 2017 29;Malaysia;Cross sectional;"o  Indoor     workers     affected     by     UHI experienced various heat-related illnesses, with  respiratory  problems  was  being  the|
+|most  common  (90%),  followed  by  heat exhaustion, heat cramps, and heat stroke.";;;;|
+|Harshad et al. 2006 30;India;Cross sectional;o  Among     firefighters,     20%     reported experiencing   significant   occurrences   of heat  exhaustion,  while  5%  reported  heat syncope, pyrexia, and cramps.;;;;|
+|Barnett et al. 2014 75;United States of America;Ecological;"o  High-risk  areas  for  extreme  heat  were associated  with  a  low  number  of  high- income  earners  and  a  higher  population|
+|density.";;;;|
+|Zander et al. 2018 81;Philippines;Cross-sectional;"o  Population      density      was      positively associated  with  the  level  of  heat  stress experienced  by  respondents.  Those  who felt  little  heat  stress  lived  in  areas  with lower  population  density  (less  than  1467 people/km2),   while   those   with   higher levels  of  heat  stress  lived  in  areas  with|
+|higher  population  density  (up  to  41,500 people/km2 in Manila City).";;;;|
+|Elsayed et al. 2012 82;Malaysia;Case study;;"o  The  study  found  that  the  UHI  in  Kuala Lumpur reached an intensity of 5.5 ºC on December 26, 2004. This was higher than|
+|the  intensity  of  4.0  ºC  recorded  in  1985, according to previous studies.";;;|
+|Mallick et al. 2012 83;India;Ecological;;"o  The   highest   surface   temperatures   were observed in the central and eastern parts of the    India,    specifically    in    the    areas dominated  by  commercial  activities  with low vegetation cover and high population density.|
+|o  These   areas   included   Chandni   Chowk, Mangolpuri, Uttam Nagar, Okhla Phase I, Shahdara,      Lakshminagar,      Mayapuri Industrial Area and Narela Industrial Area,|
+|where temperatures ranged from  34°C to 40°C.";;;|
+|Taylor et al. 2018 91;United States of America;Cross-sectional;;"o  Heat-related  deaths  were  more  common among  non-US  citizens  compared  to  US citizens, accounting 2.23% and 0.02% of deaths,   respectively.   The   risk   was   3.4 times higher for non-US citizens, with the highest   risk   observed   among   Hispanic non-US citizens and  those aged  18 to 24|
+|years";;;|
+|Sun et al. 2016 62;Hong Kong;Cross-sectional;;"o  Elders with pre-existing health conditions were more vulnerable to mortality risk to|
+|                                                                                                               hot and/or cold temperature.                         ";;;|
