@@ -2,7 +2,7 @@
 
 ## Project definition
 
-The project aims to identify urban areas most affected by the urban heat island effect with focus on highly populated slums located in developing countries and inhabited mostly by vulnerable populations, such as urban poor, refugees, and homeless. These areas are characterised by lack access to clean water and healthcare facilities, in overcrowded spaces, structural quality and durability of dwelling and infrastructures,  , ,
+The project aims to identify urban areas most affected by the urban heat island effect with focus on highly populated slums located in developing countries and inhabited mostly by vulnerable populations, such as urban poor, refugees, and homeless. These areas are characterised by lacks in access to clean water and healthcare facilities,  structural quality and durability of dwelling and infrastructures, overcrowded spaces, , ,
 The UHI effects are exacerbating vulnerabilies of already vulnerable people living in slums, that lacks resources and means to cope with extreme heat. 
 
 This proposal intends to present a sustainable mitigation strategy that can help decision-makers to improve their heat resilience and reduce temperature disparities.
