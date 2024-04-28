@@ -1,44 +1,43 @@
-Country,Country ISO,Urban area
-Armenia,ARM,Yerevan
-Azerbaijan,AZE,Baku
-Burkina Faso,BFA,Ouagadougou
-Burundi,BDI,Bujumbura
-Congo,COG,Brazzaville
-Cote d'Ivoire,CIV,Abidjan
-Dem. Rep. of the Congo,COD,Kinshasa
-Egypt,EGY,Alexandria
-Egypt,EGY,Cairo
-Egypt,EGY,Giza
-Ethiopia,ETH,Addis Ababa
-Ghana,GHA,Accra
-India,IND,Delhi
-Indonesia,IDN,Jakarta
-Iraq,IRQ,Babylon
-Iraq,IRQ,Baghdad
-Thailand,THA,Bangkok
-Turkey,TUR,Ankara
-Uganda,UGA,Kampala
-Syrian Arab Rep.,SYR,Damascus
-Senegal,SEN,Dakar
-Libya,LBY,Tripoli
-Morocco,MAR,Rabat
-Mexico,MEX,Mexico City
-Sudan,SDN,Kassala
-South Sudan,SSD,Juba
-Turkey,TUR,Istanbul
-Pakistan,PAK,Islamabad
-Somalia,SOM,Hargeisa
-Zimbabwe,ZWE,Harare
-Afghanistan,AFG,Kabul
-Niger,NER,Niamey
-Kenya,KEN,Nairobi
-Mozambique,MOZ,Maputo
-Nigeria,NGA,Lagos
-Malaysia,MYS,Kuala Lumpur
-Rwanda,RWA,Kigali
-Sudan,SDN,Khartoum
-Venezuela (Bolivarian Republic of),VEN,Caracas
-Yemen,YEM,Aden
-Yemen,YEM,'Amran
-Yemen,YEM,Sana'a
-Yemen,YEM,Mukalla
+Yerevan,Armenia
+Baku,Azerbaijan
+Ouagadougou,Burkina+Faso
+Bujumbura,Burundi
+Brazzaville,Congo
+Abidjan,Cote+d'Ivoire
+Kinshasa,Dem.+Rep.+of+the+Congo
+Alexandria,Egypt
+Cairo,Egypt
+Giza,Egypt
+Addis+Ababa,Ethiopia
+Accra,Ghana
+Delhi,India
+Jakarta,Indonesia
+Babylon,Iraq
+Baghdad,Iraq
+Bangkok,Thailand
+Ankara,Turkey
+Kampala,Uganda
+Damascus,Syrian+Arab+Rep.
+Dakar,Senegal
+Tripoli,Libya
+Rabat,Morocco
+Mexico+City,Mexico
+Kassala,Sudan
+Juba,South+Sudan
+Istanbul,Turkey
+Islamabad,Pakistan
+Hargeisa,Somalia
+Harare,Zimbabwe
+Kabul,Afghanistan
+Niamey,Niger
+Nairobi,Kenya
+Maputo,Mozambique
+Lagos,Nigeria
+Kuala+Lumpur,Malaysia
+Kigali,Rwanda
+Khartoum,Sudan
+Caracas,Venezuela+(Bolivarian+Republic+of)
+Aden,Yemen
+'Amran,Yemen
+Sana'a,Yemen
+Mukalla,Yemen
