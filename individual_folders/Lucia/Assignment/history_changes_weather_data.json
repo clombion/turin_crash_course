@@ -1,0 +1,264 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "tempmax",
+    "expression": "grel:if(length(value) > 2, value / 10.0, value)",
+    "onError": "keep-original",
+    "newColumnName": "TempMax",
+    "columnInsertIndex": 4,
+    "description": "Create column TempMax at index 4 based on column tempmax using expression grel:if(length(value) > 2, value / 10.0, value)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "buenos aires argentina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Buenos Aires, Argentina"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "kerala india"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kerala, India"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lagos nigeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lagos, Nigeria"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lima peru"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lima, Peru"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lusaka zambia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lusaka, Zambia"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "mumbai india"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mumbai, India"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "nairobi kenya"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nairobi, Kenya"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "new delhi india"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New Delhi, India"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "santiago chile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Santiago, Chile"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "sao paulo brazil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sao Paulo, Brazil"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "name",
+    "expression": "grel:split(value, ',')[-1]",
+    "onError": "set-to-blank",
+    "newColumnName": "State",
+    "columnInsertIndex": 2,
+    "description": "Create column State at index 2 based on column name using expression grel:split(value, ',')[-1]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:if(value.contains(cells[\"State\"].value), value.substring(0, value.indexOf(cells[\"State\"].value) - 1), value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:if(value.contains(cells[\"State\"].value), value.substring(0, value.indexOf(cells[\"State\"].value) - 1), value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tempmax",
+    "description": "Remove column tempmax"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "tempmin",
+    "expression": "grel:if(length(value) > 2, value / 10.0, value)",
+    "onError": "set-to-blank",
+    "newColumnName": "TempMin",
+    "columnInsertIndex": 6,
+    "description": "Create column TempMin at index 6 based on column tempmin using expression grel:if(length(value) > 2, value / 10.0, value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tempmin",
+    "description": "Remove column tempmin"
+  }
+]
