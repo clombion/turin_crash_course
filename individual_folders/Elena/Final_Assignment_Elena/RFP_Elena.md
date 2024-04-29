@@ -16,6 +16,8 @@ It is important to note that extreme heat and its consequences on health are not
 
 How can we identify the urban areas where to deploy the project?
 
+Based on the data (temperatures and number of urban refugees in ages most affected by heat-related diseases), the project will be deployed in Egypt and Iraq first, followed by Sudan and South Sudan, Niger and Burkina Faso.
+
 # Hypotheses
 
 We can use historical weather data and data from UNCHR to identify the areas where to deploy the project first. 
@@ -23,7 +25,7 @@ We can use historical weather data and data from UNCHR to identify the areas whe
 # Hypothesis notes
 
 * Coordinates of urban settlements
-* Weather Data
+* Weather Data to identify temperature trends over the past years and days with temperature above 35° Celsius from 01-01-2020 to 31-12-2023
 * Demographics of urban refugees (main focus on urban settlements of forcibly displaced population with more than 50 kids < 4 years old and 50 elderly > 60 years old. According to WHO, infants or people who are over 60 years of age or that have chronic health conditions are those most affected by heat-related diseases).
 
 # Data sources and tools
@@ -61,7 +63,7 @@ We can use historical weather data and data from UNCHR to identify the areas whe
 The output **Cities_Coordinates.csv** was obtained.
 
 6) The Cities_Coordinates.csv was imported in Excel and cleaned to obtain 1 value (city, locality or municipality) for each previously identified urban settlement.
-7) The Cities_Coordinates.csv (in raw format from GItHub) was used to map where the urban refugees settlements are located (through *import data*):
+7) The Cities_Coordinates.csv (in raw format from GItHub) was used in Umap to map where the urban refugees settlements are located (through *import data*):
 ![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/719d409a-aad1-4a81-ac40-86644f6cd839)
 As we could already guess, most of these urban settlements are located in Africa and the middle East.
 8) The coordinates of the cities were used in **https://open-meteo.com/en/docs/historical-weather-api** to extract the Maximum Temperature (2 m) in Degree Celsius which is equal to the maximum temperature recorded at a height of 2 meters above the ground surface for all the identified cities from 01-01-2020 to 31-12-2023. The data were then cleaned in OpenRefine and imported in Excel to identify:
@@ -70,11 +72,16 @@ As we could already guess, most of these urban settlements are located in Africa
 9) Data were analysed through Pivot tables and Pivot Charts to obtain what follows (Note: the number of elderly>60 and kids<4 for repeting countries such as Egypt, Iraq, Sudan, Turkey and Yemen is the same the demographic for each city was not available, therefore the country all-up was used for each city):
 ![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/435f9e2c-76bc-48cc-8076-b11c7fb1b890)
 10) **Babylon and Baghdad** (Iraq), **Khartoum and Kassala** (Sudan), **Cairo and Giza** (Egypt), **Niamei** (Niger), **Juba** (South Sudan) and **Ouagadougou** (Burkina Faso) are the urban settlements that registered the **highest temperatures** as well as the longest number of days with temperature (2 m) > 35° Celsius, the level that WHO identifies are responsible for heat-related diseases.
-All settlements had over 100 days above 35° Celsius in all the considered years (2020, 2021, 2022, 2023):
+
+All considered countries, and in particular Egypt and Iraq, have an all-up number of urban refugees < 4 years old and > 60 years old that is greater than **100,000**.
+
+All settlements had **over 100 days above 35° Celsius** in all the considered years (2020, 2021, 2022, 2023):
 ![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/d1604d62-26de-4379-96bf-666dc1ee8a41)
-Moreover, they all score amonge the top 20 of urban settlements with highest temperatures in 2023:
+Moreover, they all score among the top 20 of urban settlements with highest temperatures in 2023:
 ![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/6bc27da0-9a76-4797-be1c-67d5a066cbec)
 ![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/80112929-6b65-4b9b-97bb-c9e2233f2ba2)
+11) The data were then used in Umap to identify the proximity of the selected urban settlements:
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/c896f62f-cd10-4e3d-ad7a-4648dfa55d26)
 
 
 
