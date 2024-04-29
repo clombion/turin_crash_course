@@ -1,0 +1,23 @@
+lat,lon,type,name
+
+\60.3943055\,\5.3259192\,\municipality\,\Bergen\
+\48.8534951\,\2.3483915\,\city\,\Paris\
+\48.8588897\,\2.3200410217200766\,\suburb\,\Paris\
+\48.8588897\,\2.3200410217200766\,\city_district\,\Paris\
+\45.0677551\,\7.6824892\,\city\,\Torino\
+\45.15803915\,\7.512363054694468\,\county\,\Torino\
+\44.841225\,\-0.5800364\,\city\,\Bordeaux\
+\44.79384015\,\-0.6063085906819762\,\municipality\,\Bordeaux\
+\40.7127281\,\-74.0060152\,\city\,\City of New York\
+\43.1561681\,\-75.8449946\,\state\,\New York\
+
+173767800,\60.3943055\,\5.3259192\,\administrative\,\Bergen\
+114827617,\48.8534951\,\2.3483915\,\administrative\,\Paris\
+115350921,\48.8588897\,\2.3200410217200766\,\administrative\,\Paris\
+114994164,\48.8588897\,\2.3200410217200766\,\administrative\,\Paris\
+107356434,\45.0677551\,\7.6824892\,\administrative\,\Torino\
+106969671,\45.15803915\,\7.512363054694468\,\administrative\,\Torino\
+281388749,\44.841225\,\-0.5800364\,\administrative\,\Bordeaux\
+281132588,\44.79384015\,\-0.6063085906819762\,\administrative\,\Bordeaux\
+371470565,\40.7127281\,\-74.0060152\,\administrative\,\City of New York\
+9839934,\43.1561681\,\-75.8449946\,\administrative\,\New York\
