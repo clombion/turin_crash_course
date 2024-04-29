@@ -3,10 +3,10 @@
 ## Project definition
 
 The project aims to identify urban areas most affected by the urban heat island effect with focus on highly populated slums located in developing countries and inhabited mostly by vulnerable populations, such as urban poor, refugees, and homeless. 
-People living in slums lack access to clean water and healthcare facilities, structural quality and durability of dwelling and infrastructures, and overcrowded spaces
-UHI effect 
+People living in slums lack access to clean water and healthcare facilities, with absence of structural quality and durability of dwelling and infrastructures, and in overcrowded spaces.
+Urban areas experience UHI effect when their temperatures are significantly higher than their surrounding rural areas. That is mainly due to high density urban infrastructures, lack of green areas, heat retention and emission from industries and other human activities. 
 
-The UHI effects are exacerbating vulnerabilies of already vulnerable people living in slums, that lacks resources and means to cope with extreme heat. 
+The UHI effects are exacerbating vulnerabilies of already vulnerable people living in slums, that lack resources and means to cope with extreme heat. 
 
 This proposal intends to present a sustainable mitigation strategy that can help decision-makers to improve their heat resilience and reduce temperature disparities.
 
@@ -23,9 +23,11 @@ Vulnerable populations living in slums are more affected by the urban heat islan
 
 **Hypothesis notes**
 
+find data about: 
 - urban growth
-- lack of infrastructures and facilities
 - heat waves
+- 
+lack of infrastructures and facilities 
 
 ## Data Collection and Analysis:
 
