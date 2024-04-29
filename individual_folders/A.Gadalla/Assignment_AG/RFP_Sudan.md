@@ -46,3 +46,8 @@ The devastating floods of 2020-2022 have underscored the urgent need for informe
 -	Lake of community engagement (culture would play a big role in engaging with community.
 -	Political background and instability.
 -	When it comes to scalability strategies which has resulted successful in one urban area may not be transferable to another due to different environmental, social, or economic contexts.
+
+# Proposal Submission Deadline: January 2024
+# Evaluation Period: February - March
+# Award Notification: April 2024
+# Project Start Date: 01 May 2024
