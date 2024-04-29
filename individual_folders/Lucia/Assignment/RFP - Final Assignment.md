@@ -5,7 +5,7 @@ The phenomenon known as the Urban Heat Island (UHI) effect occurs when urban reg
 
 ## Project description and objectives
 ### Summary of goals
-  This research aims to identify urban areas most affected by the urban heat island effect using weather and geospatial data, taking into considerations the presence of vulnerable people like the homeless and migrants. Moreover, the objective is to formulate feasible and data-driven approaches to implement heat-resilient solutions (such as shelters) and an information system to enhance the living circumstances for these vulnerable groups.
+  This project aims to identify urban areas most affected by the urban heat island effect using weather and geospatial data, taking into considerations the presence of vulnerable people like the homeless and migrants. Moreover, the objective is to formulate feasible and data-driven approaches to implement heat-resilient solutions (such as shelters) and an information system to enhance the living circumstances for these vulnerable groups.
 ### Project Description
   The project aims to create a “Heat Risk Information System” with the purpose to provide information about the heat risks, peak of heat hours and locations for seeking shelter from the heat.
 ### Research question
