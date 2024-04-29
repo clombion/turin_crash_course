@@ -6,7 +6,7 @@ The phenomenon known as the Urban Heat Island (UHI) effect occurs when urban reg
 ## Project description and objectives
 ### Summary of goals
   This project aims to identify urban areas most affected by the urban heat island effect using weather and geospatial data, taking into considerations the presence of vulnerable people like the homeless and migrants. Moreover, the objective is to formulate feasible and data-driven approaches to implement heat-resilient solutions (such as shelters) and an information system to enhance the living circumstances for these vulnerable groups.
-### Project Description
+### Project description
   The project aims to create a “Heat Risk Information System” with the purpose to provide information about the heat risks, peak of heat hours and locations for seeking shelter from the heat.
 ### Research question
   How can we effectively identify urban areas most affected by the urban heat island (UHI) effect, considering vulnerable populations and what heat-resilient solutions could we implement to enhance the living conditions of vulnerable groups? How can we develop an effective Heat Risk Information System to enhance the living circumstances of these vulnerable groups?
@@ -40,9 +40,9 @@ Some proposed solutions that aim to address the identified challenges related to
 * **Implementing heat mitigation strategies**: Planting trees and increasing green cover, creating shade structures and cooling stations, installing green or cool roofs and building heat resilient shelters.
 * **Community engagement and outreach**: Launch community engagement and outreach programs to raise awareness about heat-related risks and available resources, including shelters and the Heat Risk Information System. Engage with local community leaders, NGOs, and relevant stakeholders to ensure that vulnerable populations are informed and have access to necessary support.
 * **Heat Risk Information System**: Design and implement a user-friendly Heat Risk Information System that provides real-time information about heat risks, peak heat hours, and locations of nearby cooling spaces and shelters. The system should be accessible via mobile phones, websites, and other platforms commonly used by the target population.
-* **Data-Driven Decision Making**: Use weather and geospatial data to inform decision-making processes related to urban planning and resource allocation. Analyse data trends to identify areas with the highest heat vulnerability and prioritize the implementation of heat-resilient solutions, including shelters and green infrastructure projects, in these areas.
-* **Capacity Building and Training**: Provide training and capacity-building initiatives for relevant stakeholders, including urban planners, community organizers, and shelter staff, on heat-resilient design principles, heat-related health risks, and the use of the Heat Risk Information System. Empower local communities to take proactive measures to reduce heat-related vulnerabilities and enhance their resilience to extreme heat events.
-* **Policy Recommendations**: Advocate for policy changes at the local and regional levels to integrate heat resilience into urban planning processes and address the needs of vulnerable populations. Propose policy measures such as heat action plans, zoning regulations for green spaces, and incentives for the development of heat-resilient infrastructure.
+* **Data-driven decision making**: Use weather and geospatial data to inform decision-making processes related to urban planning and resource allocation. Analyse data trends to identify areas with the highest heat vulnerability and prioritize the implementation of heat-resilient solutions, including shelters and green infrastructure projects, in these areas.
+* **Capacity building and training**: Provide training and capacity-building initiatives for relevant stakeholders, including urban planners, community organizers, and shelter staff, on heat-resilient design principles, heat-related health risks, and the use of the Heat Risk Information System. Empower local communities to take proactive measures to reduce heat-related vulnerabilities and enhance their resilience to extreme heat events.
+* **Policy recommendations**: Advocate for policy changes at the local and regional levels to integrate heat resilience into urban planning processes and address the needs of vulnerable populations. Propose policy measures such as heat action plans, zoning regulations for green spaces, and incentives for the development of heat-resilient infrastructure.
 
 ## Implementation plan
 
@@ -76,7 +76,7 @@ Some proposed solutions that aim to address the identified challenges related to
 * To establish alliances and partnerships for community involvement, get in touch with representatives of the local government, non-profit organisations, and other pertinent parties.
 * Create focused outreach programmes to interact with vulnerable communities, like the elderly, immigrants, and homeless persons.
 
-**Heat Risk information system**:
+**Heat Risk Information System**:
 * Conduct a needs assessment to find out what the target population needs and wants from the Heat Risk Information System.
 * To determine the most important features, usability preferences, and preferred communication routes, collect opinions via surveys, focus groups, and interviews.
 * Collaborate with data scientists, software developers, and IT specialists to design and create the Heat Risk Information System.
@@ -86,7 +86,7 @@ Some proposed solutions that aim to address the identified challenges related to
 * Provide technical help and assistance to users who might run into issues or need more direction when using the system.
 * Start an advertising campaign to educate the target audience about the advantages of the Heat Risk Information System. 
 
-**Data-Driven Decision Making**:
+**Data-driven decision making**:
 * Determine which meteorological and geographic data sources, such as satellite images, land use maps, demographic information, and meteorological data, are pertinent.
 * Enter into data-sharing agreements with governmental organisations, academic institutions, and other interested parties.
 * Create procedures for gathering, processing, and storing data to guarantee accuracy, dependability, and adherence to data privacy laws to get and compile the required datasets.
