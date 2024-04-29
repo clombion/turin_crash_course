@@ -36,45 +36,67 @@ The phenomenon known as the Urban Heat Island (UHI) effect occurs when urban reg
 * The file [RFP_Assignment3.csv](https://github.com/clombion/turin_crash_course/blob/WIP_Lucia/individual_folders/Lucia/Assignment/RFP_Assignment3.csv) contains a sum of the main data that I have collected, including name of the city and state, coordinates, maximum temperature and demographics of vulnerable populations.
 
 ## Proposed solutions
-Some proposed solutions that aim to address the identified challenges related to urban heat islands and that are feasible to refugee camps and improve the living circumstances of vulnerable populations by providing access to cooling spaces, enhancing community resilience, and promoting data-driven decision-making and policy changes.
-* **Implementing heat mitigation strategies**, such as planting trees and increasing green cover, creating shade structures and cooling stations, installing green or cool roofs and building heat resilient shelters.
+Some proposed solutions that aim to address the identified challenges related to urban heat islands and that are feasible to refugee camps and improve the living circumstances of vulnerable populations are:
+* **Implementing heat mitigation strategies**: Planting trees and increasing green cover, creating shade structures and cooling stations, installing green or cool roofs and building heat resilient shelters.
 * **Community engagement and outreach**: Launch community engagement and outreach programs to raise awareness about heat-related risks and available resources, including shelters and the Heat Risk Information System. Engage with local community leaders, NGOs, and relevant stakeholders to ensure that vulnerable populations are informed and have access to necessary support.
 * **Heat Risk Information System**: Design and implement a user-friendly Heat Risk Information System that provides real-time information about heat risks, peak heat hours, and locations of nearby cooling spaces and shelters. The system should be accessible via mobile phones, websites, and other platforms commonly used by the target population.
-* **Data-Driven Decision Making**: Use weather and geospatial data to inform decision-making processes related to urban planning and resource allocation. Analyze data trends to identify areas with the highest heat vulnerability and prioritize the implementation of heat-resilient solutions, including shelters and green infrastructure projects, in these areas.
+* **Data-Driven Decision Making**: Use weather and geospatial data to inform decision-making processes related to urban planning and resource allocation. Analyse data trends to identify areas with the highest heat vulnerability and prioritize the implementation of heat-resilient solutions, including shelters and green infrastructure projects, in these areas.
 * **Capacity Building and Training**: Provide training and capacity-building initiatives for relevant stakeholders, including urban planners, community organizers, and shelter staff, on heat-resilient design principles, heat-related health risks, and the use of the Heat Risk Information System. Empower local communities to take proactive measures to reduce heat-related vulnerabilities and enhance their resilience to extreme heat events.
 * **Policy Recommendations**: Advocate for policy changes at the local and regional levels to integrate heat resilience into urban planning processes and address the needs of vulnerable populations. Propose policy measures such as heat action plans, zoning regulations for green spaces, and incentives for the development of heat-resilient infrastructure.
 
 ## Implementation plan
+
 **Heat mitigation strategies**:
- * Make a list of all the resources—land, money, and supplies—that are available to support heat mitigation measures.
+ * *Tree planting and green cover*:
+      * Assess the suitable locations for tree planting, considering factors such as soil conditions, available space, and community preferences
+* *Green infrastructure*:
+   * Find ways to include permeable pavement, rain gardens, and green roofs among other green infrastructure components in urban planning and reconstruction projects.
+   * Collaborate with engineers, planners, and architects to incorporate green infrastructure into building blueprints and site designs.
+* *Shade structures and cooling stations*:
+   * Identify vulnerable neighbourhood areas, public spaces, and high-traffic places where shade structures and cooling stations are most needed by doing a site evaluation.
+   * Create shade structures with features like seating, drinking fountains, and misting systems, and use sturdy, heat-resistant materials like metal or UV-resistant cloth.
+   * To offer comfort during heat waves and extreme weather events, install cooling stations outfitted with amenities like fans, shade umbrellas, hydration stations, and first aid kits.
+* *Green or cool roofs*:
+   * Encourage the use of cool roof or green roof technologies by means of financial incentives, educational outreach, and public awareness campaigns.
+   * Provide developers and building owners who want to install cool or green roofs technical support and design advice.
+   * Work together with manufacturers, suppliers, and roofing contractors to increase the accessibility and cost effectiveness of eco-friendly and stylish roofing materials and installation services.
+* *Heat-resilient shelter design*:
+   * Create and build heat-resistant shelters in collaboration with social service organisations, architects, and engineers for the elderly, the homeless, and migrants.
+   * To reduce interior temperatures and enhance occupant comfort, passive cooling strategies including natural ventilation, thermal insulation, and reflective materials should be included into shelter designs.
+   * Make sure shelters are situated in areas that are safe, easily accessible, and close to social services, medical facilities, and public transit.
+
+ * Make a list of all the resources (land, money, and supplies) that are available to support heat mitigation measures.
  * Select the locations: Identify priority locations for implementing heat mitigation strategies based on factors such as heat vulnerability, population density, and existing infrastructures.
  * Obtain the required supplies, machinery, and services by partnering with suppliers and contractors.
- * o	Engage with local communities, government agencies, NGOs, and relevant stakeholders to gather input, assess needs, and build partnerships for implementation.
+ * Engage with local communities, government agencies, NGOs, and relevant stakeholders to gather input, assess needs, and build partnerships for implementation.
+
 **Community engagement and outreach**:
 * Identify important stakeholders, neighbourhood associations, and vulnerable groups impacted by heat-related concerns by conducting a thorough needs assessment.
 * List the community resources that are currently available and can work with outreach initiatives, such as neighbourhood NGOs, places of worship, community centres, and schools.
 * To establish alliances and partnerships for community involvement, get in touch with representatives of the local government, non-profit organisations, and other pertinent parties.
 * Create focused outreach programmes to interact with vulnerable communities, like the elderly, immigrants, and homeless persons.
+
 **Heat Risk information system**:
-* Conduct a needs assessment to find out what the target population needs and wants from the Heat Risk Information System
+* Conduct a needs assessment to find out what the target population needs and wants from the Heat Risk Information System.
 * To determine the most important features, usability preferences, and preferred communication routes, collect opinions via surveys, focus groups, and interviews.
 * Collaborate with data scientists, software developers, and IT specialists to design and create the Heat Risk Information System.
-* Based on user needs and industry best practices for information systems design, define the functionality, technical specifications, and requirements for the system.
 * Define the functionality, technical specifications, and requirements for the system.
-* To guarantee the system's reliability and rapidity, automate data gathering, analysis, and update activities.
 * Provide an easy-to-use interface for the Heat Risk Information System that prioritises accessibility, clarity, and simplicity for a range of user types.
 * Create a responsive online interface and mobile applications for iOS and Android smartphones to make the Heat Risk Information System available on a variety of platforms.
 * Provide technical help and assistance to users who might run into issues or need more direction when using the system.
 * Start an advertising campaign to educate the target audience about the advantages of the Heat Risk Information System. 
+
 **Data-Driven Decision Making**:
-* Determine which meteorological and geographic data sources—such as satellite images, land use maps, demographic information, and meteorological data—are pertinent.
-* To get and compile the required datasets, enter into data-sharing agreements with governmental organisations, academic institutions, and other interested parties.
-* Create procedures for gathering, processing, and storing data to guarantee accuracy, dependability, and adherence to data privacy laws.
+* Determine which meteorological and geographic data sources, such as satellite images, land use maps, demographic information, and meteorological data, are pertinent.
+* Enter into data-sharing agreements with governmental organisations, academic institutions, and other interested parties.
+* Create procedures for gathering, processing, and storing data to guarantee accuracy, dependability, and adherence to data privacy laws to get and compile the required datasets.
 * Engage with key stakeholders, such as citizens, community organisations, city planners, and government agencies, to exchange ideas, exchange findings, and jointly develop solutions based on insights from data.
+
 **Capacity building and training**:
 * Determine who should be involved in capacity building activities, such as community organisers, urban planners, shelter employees, and other community members.
 * Conduct a needs assessment to determine particular knowledge gaps and training needs regarding heat-resilient design concepts, heat-related health concerns, and using the Heat Risk Information System
 * Plan seminars, workshops, and training sessions to provide stakeholders with the capacity-building efforts. 
+
 **Policy recommendations**:
 * Examine current local and regional policies, rules, and urban planning frameworks in detail to determine how well they meet vulnerable populations' requirements and the goals of heat resilience.
 * Determine the gaps, obstacles, and chances for incorporating heat resilience factors into frameworks for policy.
