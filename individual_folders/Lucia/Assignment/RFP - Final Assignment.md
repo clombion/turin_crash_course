@@ -21,7 +21,7 @@ The phenomenon known as the Urban Heat Island (UHI) effect occurs when urban reg
 
 ## Methodology
 ### Find
-* Data sources: Geospatial and weather data (NASA’s Worldview Earthdata and [SEDAC](https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-population-density-rev11/gpw-v4-population-density-rev11-global-2020.pdf), OECD database, OpenStreetMap, VisualCrossing)
+* Data sources: Geospatial and weather data ([NASA’s Worldview Earthdata](https://worldview.earthdata.nasa.gov/) and [SEDAC](https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-population-density-rev11/gpw-v4-population-density-rev11-global-2020.pdf), OECD database, OpenStreetMap, VisualCrossing)
 * Contextual resources:
   * [UHI effect information](https://storymaps.arcgis.com/stories/e7edc8b871d94b418b16797b5782a30c)
   * Information on heat mitigation strategies ([link 1](https://earth.org/how-cities-around-the-world-are-tackling-the-urban-heat-crisis/), [link 2](https://www.meristemdesign.co.uk/blog/how-can-green-infrastructure-improve-air-quality-in-urban-areas) and [link 3](https://www.sciencedirect.com/science/article/abs/pii/S2210670722005844?fr=RR-2&ref=pdf_download&rr=87b6a3574e62bae8)).
