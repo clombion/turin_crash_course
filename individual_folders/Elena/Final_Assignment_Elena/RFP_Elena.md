@@ -28,18 +28,53 @@ We can use historical weather data and data from UNCHR to identify the areas whe
 
 # Data sources and tools
 
-* https://www.unhcr.org/refugee-statistics/download/?url=0quh0N
+* **UNHCR DB** https://www.unhcr.org/refugee-statistics/download/?url=0quh0N
   THe UNHCR provides a database with the demographics of forcibly displaced population including internally dispaced people, refugees, asylum-seekers and other people in need of international protection that settled in urban locations in the countries of asylum. Since there is no universal definition of urban, UNCHR classifies an urban location as a settlement with more than 5,000 inhabitants. Data for 2021 and 2022.
-* https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Funstats.un.org%2Funsd%2Fmethodology%2Fm49%2Fhistorical-classification-of-developed-and-developing-regions.xlsx&wdOrigin=BROWSELINK
+* **UN Historical Classification DB** https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Funstats.un.org%2Funsd%2Fmethodology%2Fm49%2Fhistorical-classification-of-developed-and-developing-regions.xlsx&wdOrigin=BROWSELINK
   UN historical classification of developing and developed countries (2021, 2022).
-* https://en.wikipedia.org/wiki/Urban_refugee#References
+* **Wikipedia DB** https://en.wikipedia.org/wiki/Urban_refugee#References
   Major urban refugees settlements.
 * https://open-meteo.com/en/docs/historical-weather-api
   To extract the Maximum Temperature (2 m) which is equal to the maximum temperature recorded at a height of 2 meters above the ground surface for all the identified cities from 01-01-2020 to 31-12-2023.
 * https://nominatim.org/release-docs/develop/api/Overview/
   The Nominatim API was used to identify the coordinates of the urban area.
+* https://umap.openstreetmap.fr/en/
+  To map where the urban refugees settlements are located.
+* https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health
 
 # Methodology and findings
+
+1) The **UNHCR DB** of forcibly displaced population (FDP) was used to identify the demographics of urban FDPs.
+2) The **UN Historical Classification DB** was used to map the UNHCR database and identify which countries were considered **Developing** in 2021 and 2022 through a VLOOKUP in Excel. Data were cleaned in case of inconsistency (example: countries that were considered *Developing* in one of the considered years only).
+3) The **Wikipedia DB** was used to identify major urban refugees settlements (web scraping on Excel). Data among the 3 databases were harmonised for Country name and ISO to have consistent data among the used database.
+4) According to WHO, infants or people who are over 60 years of age or that have chronic health conditions are those most affected by heat-related diseases, therefore the dtaa were filtered by **developing countries hosting urban forcibly displaced population where babies < 4 years old and elderly > 60 years old are at least => 50** (Data filtered through Pivot Table). The .csv file **Cities.csv** was obtained.
+5) The Nominatim API was used to identify coordinates of the selected urban settlements in the Cities.csv file:
+
+       echo "lat, long, city, addresstype" > Cities_Coordinates.csv
+       while read city
+       do    
+            result=$(curl -s "https://nominatim.openstreetmap.org/search?q=${city}&format=json" | jq '.[] | [.lat, .lon, .name, .addresstype] | @csv')
+            result2=$(echo "${result//\"/}")
+            echo "${result2//\/}"
+       done < Cities.csv >> Cities_Coordinates.csv
+
+The output **Cities_Coordinates.csv** was obtained.
+
+6) The Cities_Coordinates.csv was imported in Excel and cleaned to obtain 1 value (city, locality or municipality) for each previously identified urban settlement.
+7) The Cities_Coordinates.csv (in raw format from GItHub) was used to map where the urban refugees settlements are located (through *import data*):
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/719d409a-aad1-4a81-ac40-86644f6cd839)
+As we could already guess, most of these urban settlements are located in Africa and the middle East.
+8) The coordinates of the cities were used in **https://open-meteo.com/en/docs/historical-weather-api** to extract the Maximum Temperature (2 m) in Degree Celsius which is equal to the maximum temperature recorded at a height of 2 meters above the ground surface for all the identified cities from 01-01-2020 to 31-12-2023. The data were then cleaned in OpenRefine and imported in Excel to identify:
+  * Highest temperatures 2020 - 2023 temperature variations trends,
+  * Days with temperatures >= 35° Celsius (that, according to WHO, may cause heat-related diseases).
+9) Data were analysed through Pivot tables and Pivot Charts to obtain what follows (Note: the number of elderly>60 and kids<4 for repeting countries such as Egypt, Iraq, Sudan, Turkey and Yemen is the same the demographic for each city was not available, therefore the country all-up was used for each city):
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/435f9e2c-76bc-48cc-8076-b11c7fb1b890)
+10) **Babylon and Baghdad** (Iraq), **Khartoum and Kassala** (Sudan), **Cairo and Giza** (Egypt), **Niamei** (Niger), **Juba** (South Sudan) and **Ouagadougou** (Burkina Faso) are the urban settlements that registered the **highest temperatures** as well as the longest number of days with temperature (2 m) > 35° Celsius, the level that WHO identifies are responsible for heat-related diseases.
+All settlements had over 100 days above 35° Celsius in all the considered years (2020, 2021, 2022, 2023):
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/d1604d62-26de-4379-96bf-666dc1ee8a41)
+Moreover, they all score amonge the top 20 of urban settlements with highest temperatures in 2023:
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/6bc27da0-9a76-4797-be1c-67d5a066cbec)
+![image](https://github.com/elenabolla/turin_crash_course-Elena/assets/167084001/80112929-6b65-4b9b-97bb-c9e2233f2ba2)
 
 
 
