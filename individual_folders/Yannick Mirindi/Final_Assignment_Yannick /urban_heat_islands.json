@@ -1,7 +1,7 @@
 api_url = "https://api.nasa.gov/planetary/earth/assets"
 params = {
-    "lon": "10.0", #coordinates
-    "lat": "20.0", #coordinates
+    "lon": "10.0", 
+    "lat": "20.0",
     "begin": "2023-01-01",
     "end": "2023-12-31",
     "dim": "0.1", # 50
