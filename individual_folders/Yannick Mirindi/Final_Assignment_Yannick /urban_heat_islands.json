@@ -1,9 +1,9 @@
 api_url = "https://api.nasa.gov/planetary/earth/assets"
 params = {
-    "lon": "10.0", # Example longitude, replace with your coordinates
-    "lat": "20.0", # Example latitude, replace with your coordinates
+    "lon": "10.0", #coordinates
+    "lat": "20.0", #coordinates
     "begin": "2023-01-01",
     "end": "2023-12-31",
-    "dim": "0.1", # Dimension of the image
+    "dim": "0.1", # 50
     "api_key": "YOUR_API_KEY"
 }
