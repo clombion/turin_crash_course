@@ -13,25 +13,33 @@ For more information on the impact of UHIs and the importance of mitigating thei
 
 # Project Description
 
-The aim of this project is developing an **SMS-heat-alert** and **health-check system** that **forcibly displaced population** (including internally dispaced people, refugees, asylum-seekers and other people in need of international protection that settled in **urban locations** in **developing countries** of asylum affected by **extreme heat conditions**) could benefit from by receving heat alerts in case of extreme weather conditions together with multilingual advice on practices to avoid heat-realted diseases. Moreover, they could communicate any heat-related symptoms they might experience through a multilingual SMS-form. The system would be created by and integrated with **FDP-centers** in the cities of reference where those in need could register (to create a database shared in all the urban areas) and get support. These FDP-centers would offer basic assistance in case of heat-related discomfort, collect data on the target groups (both through in-person visits and the digital health-check system), and where trainings to maintain the system would be delivered. The staff of these centers would consist of vulnerable people from different nationalities themselves, thus making the project multilingual, sustainable in the long-term, and scalable to other urban settlements.
+The Cool Communities Initiative (CCI) is an ambitious project designed to address the pressing issue of Urban Heat Islands (UHIs) in developing countries. UHIs exacerbate the effects of climate change by increasing urban temperatures, which in turn heightens public health risks, energy consumption, and environmental stress. Vulnerable populations, often living in densely populated and under-resourced areas, are disproportionately affected by these conditions.
+The initiative focuses on implementing a multifaceted strategy to mitigate the UHI effect through sustainable and innovative solutions. These solutions include green infrastructure, such as green roofs and urban forestry, cool pavements, and water features, which are scientifically proven to reduce urban temperatures. Additionally, CCI emphasizes the importance of community engagement and education, ensuring that local populations are actively involved in and benefit from the interventions.
 
-It is important to note that extreme heat and its consequences on health are not the only consequence of climate change, which include floods, draught, threat to biodiversity and agriculture, and extreme weather conditions. Moreover, forcibly displaced people do not settle in urban areas in developing countries only, but often chose least-developed countries, as well as developed ones, and they all have the same importance. Urban refugees not only face weather-related challenges, but many more, and the UNHCR and other aid agencies cannot legally protect and support refugees dispersed in urban settings as much as in camps: it is therefore important to establish centers where the vulnerable people feel safe to register and go to when they are in need. Collaboration between cities hosting forcibly displaced people, and partnership with NGOs and local authorities play a key role in this project.
+# Research questions.
 
-# Research question
+How can targeted green infrastructure and community engagement strategies effectively mitigate the Urban Heat Island (UHI) effect in vulnerable urban areas of developing countries, and what are the measurable impacts on public health, energy consumption, and overall climate resilience?
 
-How can we identify the urban areas where to deploy the project?
+# Hypothesis:
+Implementing targeted green infrastructure interventions and fostering community engagement will lead to a significant reduction in urban temperatures and an improvement in public health outcomes in vulnerable urban areas of developing countries.
+Explanation:
+The hypothesis posits that by strategically implementing green infrastructure interventions, such as green roofs, urban forestry, and cool pavements, in conjunction with robust community engagement strategies, it will be possible to effectively mitigate the Urban Heat Island (UHI) effect. Green infrastructure, such as vegetation and reflective surfaces, has been demonstrated to absorb heat, provide shade, and enhance natural cooling processes, thereby lowering surface temperatures in urban areas. Moreover, community engagement initiatives empower local residents to participate in decision-making processes, contribute to project planning and implementation, and take ownership of green spaces, fostering a sense of pride and stewardship within communities.
 
-Based on the data (temperatures and number of urban refugees in ages most affected by heat-related diseases), the project will be deployed in Egypt and Iraq first, followed by Sudan and South Sudan, Niger and Burkina Faso.
-
-# Hypotheses
-
-We can use historical weather data and data from UNCHR to identify the areas where to deploy the project first. 
+# Expected Outcomes:
+1.	**Reduction in Urban Temperatures:** It is anticipated that the implementation of green infrastructure interventions will lead to a measurable decrease in urban temperatures, particularly in UHI hotspots within vulnerable urban areas.
+2.	**Improvement in Public Health:** By lowering ambient temperatures and providing cooler microclimates, UHI mitigation strategies are expected to result in a reduction in heat-related illnesses and respiratory conditions among vulnerable populations.
+3.	**Enhanced Climate Resilience:** The combination of green infrastructure and community engagement is expected to enhance the resilience of vulnerable communities to the impacts of climate change, including extreme heat events.
+4.	**Positive Social and Economic Impacts:** Community engagement initiatives are expected to foster social cohesion, empower marginalized communities, and create economic opportunities, thereby contributing to overall socio-economic development.
+   
+# Validation:
+The hypothesis will be tested through rigorous monitoring and evaluation of UHI mitigation projects implemented as part of the Cool Communities Initiative. Data on urban temperatures, public health indicators, community engagement metrics, and socio-economic factors will be collected and analyzed to assess the effectiveness of the interventions and validate the hypothesis. Additionally, comparative studies and case analyses will be conducted to examine the outcomes of similar projects implemented in different contexts, further validating the hypothesis and identifying best practices for UHI mitigation in developing countries.
 
 # Hypothesis notes
 
-* Coordinates of urban settlements
-* Weather Data to identify temperature trends over the past years and days with temperature above 35° Celsius from 01-01-2020 to 31-12-2023
-* Demographics of urban refugees (main focus on urban settlements of forcibly displaced population with more than 50 kids < 4 years old and 50 elderly > 60 years old. According to WHO, infants or people who are over 60 years of age or that have chronic health conditions are those most affected by heat-related diseases).
+1.	**Focus on Green Infrastructure:** The hypothesis emphasizes the importance of green infrastructure as a primary strategy for mitigating the Urban Heat Island (UHI) effect. This includes interventions such as green roofs, urban forestry, and cool pavements, which are designed to absorb heat, provide shade, and enhance natural cooling processes in urban areas.
+2.	**Community Engagement as a Key Component:** Recognizing the significance of community involvement, the hypothesis highlights the role of community engagement in fostering ownership, participation, and stewardship of green spaces. By empowering local residents to contribute to decision-making processes and project implementation, community engagement is expected to enhance the effectiveness and sustainability of UHI mitigation efforts.
+3.	**Expected Outcomes:** The hypothesis predicts specific outcomes resulting from the implementation of green infrastructure and community engagement strategies, including a reduction in urban temperatures, improvement in public health outcomes, and enhanced climate resilience among vulnerable populations in developing countries.
+4.	**Potential Social and Economic Impacts:** Beyond environmental benefits, the hypothesis suggests that UHI mitigation initiatives have the potential to generate positive social and economic impacts. These may include increased social cohesion, empowerment of marginalized communities, and the creation of economic opportunities, contributing to overall socio-economic development.
 
 # Data sources and tools
 
