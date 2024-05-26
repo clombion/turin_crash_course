@@ -2,8 +2,7 @@
 import requests
 import json
 import os
-
-# Define the API endpoint and parameters
+Define the API endpoint and parameters
 api_url = "https://api.nasa.gov/planetary/earth/assets"
 params = {
     "lon": "10.0", # Example longitude, replace with your coordinates
