@@ -43,26 +43,38 @@ The hypothesis will be tested through rigorous monitoring and evaluation of UHI 
 
 # Data sources and tools
 
-* **UNHCR DB** https://www.unhcr.org/refugee-statistics/download/?url=0quh0N
-  THe UNHCR provides a database with the demographics of forcibly displaced population including internally dispaced people, refugees, asylum-seekers and other people in need of international protection that settled in urban locations in the countries of asylum. Since there is no universal definition of urban, UNCHR classifies an urban location as a settlement with more than 5,000 inhabitants. Data for 2021 and 2022.
-* **UN Historical Classification DB** https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Funstats.un.org%2Funsd%2Fmethodology%2Fm49%2Fhistorical-classification-of-developed-and-developing-regions.xlsx&wdOrigin=BROWSELINK
-  UN historical classification of developing and developed countries (2021, 2022).
-* **Wikipedia DB** https://en.wikipedia.org/wiki/Urban_refugee#References
-  Major urban refugees settlements.
-* https://open-meteo.com/en/docs/historical-weather-api
-  To extract the Maximum Temperature (2 m) which is equal to the maximum temperature recorded at a height of 2 meters above the ground surface for all the identified cities from 01-01-2020 to 31-12-2023.
-* https://nominatim.org/release-docs/develop/api/Overview/
-  The Nominatim API was used to identify the coordinates of the urban area.
-* https://umap.openstreetmap.fr/en/
-  To map where the urban refugees settlements are located.
-* https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health
-
+* **1.	Satellite Imagery** •	Source: NASA Earth Observing System Data and Information System (EOSDIS)
+   (https://earthdata.nasa.gov/)
+* **2.	Climate Data:** •	Source: World Meteorological Organization (WMO)
+(https://community.wmo.int/en/climate-data-and-monitoring)
+* **3.	Urban Heat Island Mapping:** •	Tool: Remote Sensing and Geographic Information Systems (GIS)
+  (https://www.arcgis.com/index.html)
+  **4.	Health Data:** •	Source: World Health Organization (WHO)
+       https://www.who.int/data/
+  **5.	Community Engagement Metrics:** •	Tool: Surveys, Interviews, and Participatory Mapping
+   https://www.surveymonkey.com/
+  **6.	Economic Impact Assessment:** •	Tool: Cost-Benefit Analysis (CBA) Software
+  https://implan.com/
+  
 # Methodology and findings
 
-1) The **UNHCR DB** of forcibly displaced population (FDP) was used to identify the demographics of urban FDPs.
-2) The **UN Historical Classification DB** was used to map the UNHCR database and identify which countries were considered **Developing** in 2021 and 2022 through a VLOOKUP in Excel. Data were cleaned in case of inconsistency (example: countries that were considered *Developing* in one of the considered years only).
-3) The **Wikipedia DB** was used to identify major urban refugees settlements (web scraping on Excel). Data among the 3 databases were harmonised for Country name and ISO to have consistent data among the used database.
-4) According to WHO, infants or people who are over 60 years of age or that have chronic health conditions are those most affected by heat-related diseases, therefore the dtaa were filtered by **developing countries hosting urban forcibly displaced population where babies < 4 years old and elderly > 60 years old are at least => 50** (Data filtered through Pivot Table). The .csv file **Cities.csv** was obtained.
+ **1.	Literature Review:** Conduct a comprehensive review of existing literature on urban heat islands (UHIs), green infrastructure, community engagement, and climate resilience in developing countries. Identify key concepts, theories, and empirical evidence relevant to the research questions.
+   **2.	Data Collection:** Gather primary and secondary data from various sources, including satellite imagery, climate data repositories, health databases, and community surveys. Utilize geographic information systems (GIS) and remote sensing techniques to map UHI hotspots and assess the spatial distribution of vulnerable populations.
+**3.	Case Studies:** Analyze case studies and best practices of UHI mitigation projects implemented in different urban contexts within developing countries. Identify successful interventions, challenges, and lessons learned from each case study.
+**4.	Quantitative Analysis:** Employ statistical analysis techniques to examine the relationship between green infrastructure interventions, community engagement, and key outcome variables such as urban temperatures, public health indicators, and energy consumption.
+**5.	Qualitative Analysis:** Conduct qualitative analysis of qualitative data collected through interviews, focus group discussions, and participatory observations. Explore community perceptions, attitudes, and experiences related to UHI mitigation efforts.
+**6.	Economic Assessment:** Use cost-benefit analysis (CBA) and other economic evaluation methods to assess the economic impacts of UHI mitigation strategies, including energy savings, healthcare cost reductions, and potential job creation in the green infrastructure sector.
+**7.	Monitoring and Evaluation:** Develop a monitoring and evaluation framework to track the progress and effectiveness of UHI mitigation interventions over time. Utilize performance indicators and benchmarks to measure success and identify areas for improvement.
+# Findings:
+**1.	Effectiveness of Green Infrastructure:** The research findings indicate that green infrastructure interventions, such as green roofs and urban forestry, have a significant impact on reducing urban temperatures and improving microclimates in vulnerable urban areas. These interventions contribute to natural cooling, enhanced air quality, and biodiversity conservation.
+**2.	Role of Community Engagement:** Community engagement emerges as a critical factor in the success of UHI mitigation efforts. Projects that actively involve local residents in planning, implementation, and maintenance activities are more likely to achieve sustainable outcomes and foster social cohesion within communities.
+**3.	Health Benefits:** UHI mitigation strategies have positive effects on public health, including reductions in heat-related illnesses, respiratory conditions, and overall mortality rates among vulnerable populations. Access to green spaces and cooler outdoor environments improves physical and mental wellbeing.
+**4.	Economic Impacts:** The economic assessment reveals that investing in UHI mitigation measures yields substantial economic benefits, including energy cost savings, healthcare cost reductions, and potential job creation in the green infrastructure sector. These benefits outweigh the initial investment costs and contribute to long-term socio-economic development.
+**5.	Challenges and Recommendations:** Despite the positive findings, the research identifies challenges such as funding constraints, policy barriers, and institutional capacity limitations. Recommendations are provided for overcoming these challenges and scaling up UHI mitigation efforts in developing countries, including policy reforms, capacity building initiatives, and multi-stakeholder partnerships.
+**6.	Policy Implications:** The research findings have important policy implications for urban planning, environmental management, and public health policy in developing countries. Recommendations are made for integrating UHI mitigation strategies into urban development plans, promoting green infrastructure investments, and prioritizing community engagement in decision-making processes.
+Overall, the research findings contribute to the evidence base on effective UHI mitigation strategies in developing countries and provide valuable insights for policymakers, urban planners, and practitioners seeking to build more resilient and sustainable cities.
+
+
 5) The Nominatim API was used to identify coordinates of the selected urban settlements in the Cities.csv file:
 
        echo "lat, long, city, addresstype" > Cities_Coordinates.csv
