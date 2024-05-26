@@ -6,10 +6,10 @@ The Civic Literacy Initiative (CLI) is dedicated to fostering sustainable and in
 This proposal outlines a detailed plan for the Cool Communities Initiative, including specific interventions, methodologies, and expected outcomes. We seek to collaborate with local governments, community organizations, research institutions, and private sector partners to create cooler, more livable urban spaces that can serve as models for sustainable urban development in other regions.
 
 For more information on the impact of UHIs and the importance of mitigating their effects, please refer to the following resources:
-•	Environmental Protection Agency (EPA) on Urban Heat Islands
-•	World Health Organization (WHO) on Climate Change and Health
-•	United Nations (UN) Sustainable Development Goals
- (https://action.unrefugees.org/refugee-facts/camps/)
+•	Environmental Protection Agency (EPA) on Urban Heat Islands https://www.epa.gov/heat-islands 
+•	World Health Organization (WHO) on Climate Change and Health https://www.who.int/health-topics/climate-change
+•	United Nations (UN) Sustainable Development Goals https://www.un.org/sustainabledevelopment/sustainable-cities/
+ 
 
 # Project Description
 
