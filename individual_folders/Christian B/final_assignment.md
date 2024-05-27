@@ -47,23 +47,23 @@ Source:https://www.insightsonindia.com
 **Urban Heat Island**, **Mitigation**, **Adaptation**, **Dynamic Modelling**, **Urban Planning**
 
 # Table of contents
-# 1.	Abstract
+## 1.	Abstract
 
-# 2.	Introduction
-2.1.	Study on Urban Heat Island - Project Description
-2.2.	Mitigation of Urban Heat Island
+## 2.	Introduction
+**2.1.	Study on Urban Heat Island - Project Description**
+**2.2.	Mitigation of Urban Heat Island**
 
-# 3.	Method, Tools, and Information
-    3.1. Increasing, Characterization and Analysis of Urban Space
-    3.2. Building of Mitigation-Adaptation Scenarios
+## 3.	Method, Tools, and Information
+**3.1. Increasing, Characterization and Analysis of Urban Space**
+**3.2. Building of Mitigation-Adaptation Scenarios**
 
-# 4.	Results and Actions
-    4.1. Urban Planning, Mitigation and Adaptation to the UHI
-     4.2. Inclusion of the Results into the Planning Process
+## 4.	Results and Actions
+**4.1. Urban Planning, Mitigation and Adaptation to the UHI**
+**4.2. Inclusion of the Results into the Planning Process**
 
-# 5.	Conclusion
+## 5.	Conclusion
 
-# List of Abbreviations and Acronyms
+## List of Abbreviations and Acronyms
 
 **UHI** - Urban Heat Island
 **UBL** - Urban Boundary Layer
