@@ -7,3 +7,5 @@
 ![Naistud5](https://github.com/clombion/turin_crash_course/assets/166433063/f405f530-daef-44f8-8874-510caf654b1c)
 ![Naistud6](https://github.com/clombion/turin_crash_course/assets/166433063/081457a2-4b88-44c7-b7ef-b2aa350c2030)
 ![Naistud7](https://github.com/clombion/turin_crash_course/assets/166433063/5ac9101a-a2d4-4d85-afbd-e47a93b691ec)
+<img width="377" alt="Naistud8" src="https://github.com/clombion/turin_crash_course/assets/166433063/6ab3148f-74ba-47b3-a12f-f7afdb5346af">
+<img width="622" alt="Naistud9" src="https://github.com/clombion/turin_crash_course/assets/166433063/f36100fc-4f11-4782-9226-ccd2d12348b7">
