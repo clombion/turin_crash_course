@@ -1,6 +1,5 @@
 # API key for OpenWeatherMap (replace 'YOUR_API_KEY' with your actual API key)
-api_key = '16226b47bd3a628a8518cc479d7b02ca'
-
+api_key = "16226b47bd3a628a8518cc479d7b02ca" 
 # Function to fetch weather data from OpenWeatherMap API
 def fetch_weather_data(city_name):
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}'
