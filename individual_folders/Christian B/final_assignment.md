@@ -1,16 +1,51 @@
 # Request for Proposals (RFP):Mitigating Urban Heat Islands for Vulnerable Populations in Developing Countries
 
-**A Case Study of Nairobi - Kenya**
+# A Case Study of Nairobi - Kenya
 **by**
-# Christian Serge BASHIGE
-# 1138451 - BSHCRS84A23Z312E
+**Christian Serge BASHIGE**
+1138451 - BSHCRS84A23Z312E
+
 ![Alt Naistud01](https://github.com/clombion/turin_crash_course/assets/166433063/12675937-81d4-46b9-9165-856246835b66)
 
-Urban Heat Islands" (UHIs) refers to urban areas where the temperature is significantly higher than in surrounding areas, due to the concentration of buildings, roads, pavements, and other structures that absorb and retain heat. These areas tend to experience higher temperatures than nearby rural areas, especially during the summer months.
+#  Master ICT for Development and Social Good
+  **UNIVERSITY OF TURIN** 
+  
+#  Crash Course #1: Data in-practice, final assignment 
+**April 28th 2024**
 
-When we talk about "Urban Heat Islands for Vulnerable Populations," we refer to groups of people such as the homeless, migrants, elderly individuals, young children, and people with pre-existing medical conditions. These groups often have less access to resources to protect themselves from extreme heat, such as air conditioning, adequate shelter, or access to clean water.
+**Professor:**  
 
-This situation could lead in health problems as heat strokers or dehydaration. 
+# Cedric Lombion
+
+## ABSTRACT
+
+In this assignment the Urban Heat Island effect is investigated and the effect of urbanization on UHI is
+analyzed as a case study in Nairobi City. The primary aim of this study was to provide a
+comprehensive quantification of the effect of Urbanization to the UHI effect to the urban
+planning management. The study consisted of three parts; Analysis of Urbanization using the
+DMSP/OLS nighttime light images, investigation of UHI effect using Landsat 8 OLI/TIRS
+images and correlation analysis between the UHI, NDVI (representing vegetated surfaces) and
+Urbanization(landuse/Landcover) to establish a relationship between the UHI effect and
+urbanization. A mono-window algorithm was used to retrieve the land surface temperature (LST)
+distribution from the Landsat 8 images, using specifically band 10 and band 11 images. The
+spatial pattern of LST in the study area retrieved to characterize their local effects on the urban
+heat islands. In addition, the correlation between LST and the NDVI (Normalized difference
+vegetation index), Urbanization was analyzed to explore the impacts of the vegetation and
+urbanization on the urban heat island effect. The results indicate that, though not pronounced,
+there is a distribution of heat islands in Nairobi. The negative correlation between LST and
+NDVI suggests that vegetation weakens the heat island effect, while the positive correlation
+between LST and Urbanization indicates that the urbanization elevates the heat island effect. The
+study concluded that, with the rate of urbanization, the distributed heat island, with time will
+conglomerate into a large heat island in the region. Although satellite data (e.g., Landsat 8 level
+one products) can be applied effectively to examine the distribution of urban heat islands, the
+research still needs to be refined with in situ measurements of LST in future studies.
+
+
+Figure 1Urban heat island formation 
+Source:https://www.insightsonindia.com
+
+
+
 
 # Project description
 Project aims to identify urban areas affected by UHIs impacting vulnerable populations. The proposal will propose and develop actionable strategies based on geospatial and weather data to reduce disparities and improve conditions.
