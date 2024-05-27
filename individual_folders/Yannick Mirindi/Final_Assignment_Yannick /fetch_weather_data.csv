@@ -3,5 +3,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 
+api_key = 'ec03a36b098a3bc388e7998f37434818'
+
 
 
