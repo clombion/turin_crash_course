@@ -151,9 +151,9 @@ Broadly, according to (Oke, 1987), there are three different types of urban heat
 Landsat 8 O was used in the retrieval of land surface temperature due to the presence of thermal infrared bands. The Nighttime light images were used in analysis and classification of urbanization, these products are widely used in urban studies and energy or population research (Table 3.1)
 # Table 3.1 Landsat and Nighttime Light images
 ## Data|Resolution (m)|Time|Date
-------|--------------|----------
+-------|--------|------|---|------
 Landsat8|30x30|Day and night time|2013-2014
-------|-------|------|-----------
+------|-------|------|-----------|----------
 Nighttime Light Earthdata|120x120|Night Time|2013-2014
 
 # 3.1.1.1	Other Auxiliary Data
@@ -200,8 +200,15 @@ Understanding the negative consequences of urban heat is essential to formulatin
 ![Alt Naistud6](https://github.com/clombion/turin_crash_course/assets/166433063/081457a2-4b88-44c7-b7ef-b2aa350c2030)
 Figure 3.1: flow chart showing the process of Urbanization analysis.
 
+We combined data collected from Varda Soil Platform ‘’SoilHive’’ from index data in CSV that we converted into xls, geo-localization date, TIF images to aggregate data to analyze UHI situation in Nairobi - Kenya
+![Alt Naistud8](https://github.com/clombion/turin_crash_course/assets/166433063/6ab3148f-74ba-47b3-a12f-f7afdb5346af)
+Fig 3.2. collected index data from soilhive https://app.soilhive.ag/availability 
+
+![Alt Naistud9](https://github.com/clombion/turin_crash_course/assets/166433063/f36100fc-4f11-4782-9226-ccd2d12348b7)
+Fig 3.3. UHI Kenya Data Index Report
+
 # Conclusion And Recommendations
-## 5.1.1	Conclusion
+## 5.1.1 Conclusion
 In this study, the mono-window algorithm was applied to retrieve the LST in Nairobi using the Landsat 8 OLI/TIRS level one product data. Through the retrieved temperature data, it I found that the distribution of UHI in Nairobi is mainly located in residential areas and maximum at the city Centre. It is noticed that with the urbanization growth rate, soon, the distributed heat islands will conglomerate into one large-scale regional heat Island. In comparison, the scattered urbanized areas have dispersed distribution of urban heat island effects, it is therefore reasonable to envisage the establishment of satellite-urban areas in the city layout separate from the business center to prevent the formation of a large-scale regional urban heat island.
 In the absence of non-uniform distribution of ground weather stations, remotely sensed data have a great importance to monitor impacts of different environmental issue such as heat islands. The thermal band in the Landsat satellites, have been proven to have a crucial role in estimating surface temperatures. The availability of different algorithms developed by different authors to overcome the shortage of data required for calibrating the satellite estimated surface temperature to field of study made the study be conclusive with minimal errors per see. The mono-window algorithm developed by Qin Z and Berliner is one of these algorithms that have a great importance in case of missing in situ data of ground emissivity; atmospheric transmittance and mean atmospheric air temperature.
 
