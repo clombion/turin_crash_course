@@ -3,43 +3,5 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# API key for OpenWeatherMap (replace 'YOUR_API_KEY' with your actual API key)
-api_key = 'ec03a36b098a3bc388e7998f37434818'
 
-# Function to fetch weather data from OpenWeatherMap API
-def fetch_weather_data(city_name):
-    url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}'
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        return data
-    else:
-        print("Error fetching data:", response.status_code)
-        return None
 
-# Fetching weather data for a specific city (e.g., New York)
-city_data = fetch_weather_data('New York')
-
-# Parsing relevant weather information
-if city_data:
-    weather_info = {
-        'City': city_data['name'],
-        'Country': city_data['sys']['country'],
-        'Temperature (C)': city_data['main']['temp'] - 273.15,  # Convert Kelvin to Celsius
-        'Humidity (%)': city_data['main']['humidity'],
-        'Wind Speed (m/s)': city_data['wind']['speed']
-    }
-
-    # Creating a DataFrame for the weather information
-    df_weather = pd.DataFrame([weather_info])
-
-    # Displaying the weather information
-    print("Weather Information:")
-    print(df_weather)
-
-    # Plotting temperature histogram
-    plt.hist(df_weather['Temperature (C)'], bins=10, color='skyblue', edgecolor='black')
-    plt.title('Temperature Distribution')
-    plt.xlabel('Temperature (C)')
-    plt.ylabel('Frequency')
-    plt.show()
