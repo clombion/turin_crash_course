@@ -6,7 +6,7 @@ import csv
 # Function to fetch data from OpenWeatherMap API
 def fetch_data_openweathermap(api_url, latitude, longitude, api_key):
     # Set the date for which you want the data (e.g., 7 days ago)
-    date = datetime.datetime.now() - datetime.timedelta(days=7)
+    date = datetime.datetime.now() - datetime.timedelta(days=15)
     timestamp = int(date.timestamp())
     
     params = {
@@ -16,10 +16,4 @@ def fetch_data_openweathermap(api_url, latitude, longitude, api_key):
         "appid": api_key
     }
     
-    response = requests.get(api_url, params=params)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Error: Unable to fetch data from OpenWeatherMap (Status code: {response.status_code})")
-        return None
-
+ 
