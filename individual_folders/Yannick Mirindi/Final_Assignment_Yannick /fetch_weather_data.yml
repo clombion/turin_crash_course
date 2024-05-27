@@ -1,58 +1,45 @@
-name: Fetch Weather Data
+# Importing necessary libraries
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+# API key for OpenWeatherMap (replace 'YOUR_API_KEY' with your actual API key)
+api_key = 'ec03a36b098a3bc388e7998f37434818'
 
-jobs:
-  fetch-data:
-    runs-on: ubuntu-latest
+# Function to fetch weather data from OpenWeatherMap API
+def fetch_weather_data(city_name):
+    url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        return data
+    else:
+        print("Error fetching data:", response.status_code)
+        return None
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+# Fetching weather data for a specific city (e.g., New York)
+city_data = fetch_weather_data('New York')
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+# Parsing relevant weather information
+if city_data:
+    weather_info = {
+        'City': city_data['name'],
+        'Country': city_data['sys']['country'],
+        'Temperature (C)': city_data['main']['temp'] - 273.15,  # Convert Kelvin to Celsius
+        'Humidity (%)': city_data['main']['humidity'],
+        'Wind Speed (m/s)': city_data['wind']['speed']
+    }
 
-      - name: Install Dependencies
-        run: pip install requests
+    # Creating a DataFrame for the weather information
+    df_weather = pd.DataFrame([weather_info])
 
-      - name: Run Script
-        run: |
-          python - <<EOF
-          import requests
-          import csv
-          import datetime
+    # Displaying the weather information
+    print("Weather Information:")
+    print(df_weather)
 
-          # Function to fetch weather data from OpenWeatherMap
-          def fetch_weather_data(api_key, latitude, longitude):
-              url = f"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}"
-              response = requests.get(url)
-              return response.json() if response.ok else None
-
-          # Main function
-          def main():
-              api_key = "b392564f5d870f4e630b78f1a6640084"  
-              latitude = "007c95914107673f8e78288eccdf9dc7"  
-              longitude = "3214c388b6493d762f57c40b157749be"  
-
-              # Fetch weather data
-              data = fetch_weather_data(api_key, latitude, longitude)
-
-              # Save data to CSV file
-              if data:
-                  filename = 'weather_data.csv'
-                  with open(filename, mode='w', newline='') as file:
-                      writer = csv.writer(file)
-                      writer.writerow(['Time', 'Temperature', 'Humidity', 'Pressure', 'Wind Speed', 'Weather'])
-                      writer.writerow([datetime.datetime.now(), data['main']['temp'], data['main']['humidity'], data['main']['pressure'], data['wind']['speed'], data['weather'][0]['description']])
-                  print(f"Data saved to {filename}")
-              else:
-                  print("Failed to fetch weather data")
-
-          if __name__ == "__main__":
-              main()
-          EOF
+    # Plotting temperature histogram
+    plt.hist(df_weather['Temperature (C)'], bins=10, color='skyblue', edgecolor='black')
+    plt.title('Temperature Distribution')
+    plt.xlabel('Temperature (C)')
+    plt.ylabel('Frequency')
+    plt.show()
