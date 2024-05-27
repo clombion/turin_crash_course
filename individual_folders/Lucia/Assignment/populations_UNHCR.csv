@@ -7,3 +7,25 @@ Year,"Country of origin","Country of origin (ISO)","Country of asylum","Country 
 2022,-,-,Kenya,KEN,504473,69011,-
 2022,-,-,Nigeria,NGA,91275,1623,-
 2022,-,-,Zambia,ZMB,61159,2774,-
+
+
+
+ Parsing relevant weather information
+if city_data:
+    weather_info = {
+        'City': city_data['name'],
+        'Country': city_data['sys']['country'],
+        'Temperature (C)': city_data['main']['temp'] - 273.15,  # Convert Kelvin to Celsius
+        'Humidity (%)': city_data['main']['humidity'],
+        'Wind Speed (m/s)': city_data['wind']['speed']
+    }
+
+    # Creating a DataFrame for the weather information
+    df_weather = pd.DataFrame([weather_info])
+
+    # Displaying the weather information
+    print("Weather Information:")
+    print(df_weather)
+
+    # Plotting temperature histogram
+    plt.hist(df_weather['Temperature (C)'], bins=10, color='skyblue', edgecolor='
