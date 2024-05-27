@@ -54,10 +54,10 @@ def save_data_to_csv(data, filename):
 def main():
     # Define OpenWeatherMap API details
     openweathermap_api_url = "http://api.openweathermap.org/data/2.5/onecall/timemachine"
-    api_key = "YOUR_API_KEY"  # Replace with your actual OpenWeatherMap API key
-    latitude = "ENTER_LATITUDE"  # Replace with the latitude of the location
-    longitude = "ENTER_LONGITUDE"  # Replace with the longitude of the location
-    
+    api_key = "ef7da6e160c7e355073d9ececc7a5a2c"  
+    latitude = "d24e712ca4474c57758d4f3aead5f197"
+    longitude = "ed860f76503f457deea1b056e28dbdb9" 
+
     # Fetch data from OpenWeatherMap
     openweathermap_data = fetch_data_openweathermap(openweathermap_api_url, latitude, longitude, api_key)
     
