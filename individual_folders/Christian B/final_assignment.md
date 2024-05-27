@@ -4,7 +4,7 @@
 by
 Christian Serge BASHIGE
 1138451 - BSHCRS84A23Z312E
-![Alt text][Naistud01](https://github.com/clombion/turin_crash_course/assets/166433063/12675937-81d4-46b9-9165-856246835b66)
+![Alt Naistud01](https://github.com/clombion/turin_crash_course/assets/166433063/12675937-81d4-46b9-9165-856246835b66)
 
 Urban Heat Islands" (UHIs) refers to urban areas where the temperature is significantly higher than in surrounding areas, due to the concentration of buildings, roads, pavements, and other structures that absorb and retain heat. These areas tend to experience higher temperatures than nearby rural areas, especially during the summer months.
 
