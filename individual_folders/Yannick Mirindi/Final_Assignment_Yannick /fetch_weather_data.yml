@@ -1,0 +1,58 @@
+name: Fetch Weather Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Script
+        run: |
+          python - <<EOF
+          import requests
+          import csv
+          import datetime
+
+          # Function to fetch weather data from OpenWeatherMap
+          def fetch_weather_data(api_key, latitude, longitude):
+              url = f"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}"
+              response = requests.get(url)
+              return response.json() if response.ok else None
+
+          # Main function
+          def main():
+              api_key = "b392564f5d870f4e630b78f1a6640084"  
+              latitude = "007c95914107673f8e78288eccdf9dc7"  
+              longitude = "3214c388b6493d762f57c40b157749be"  
+
+              # Fetch weather data
+              data = fetch_weather_data(api_key, latitude, longitude)
+
+              # Save data to CSV file
+              if data:
+                  filename = 'weather_data.csv'
+                  with open(filename, mode='w', newline='') as file:
+                      writer = csv.writer(file)
+                      writer.writerow(['Time', 'Temperature', 'Humidity', 'Pressure', 'Wind Speed', 'Weather'])
+                      writer.writerow([datetime.datetime.now(), data['main']['temp'], data['main']['humidity'], data['main']['pressure'], data['wind']['speed'], data['weather'][0]['description']])
+                  print(f"Data saved to {filename}")
+              else:
+                  print("Failed to fetch weather data")
+
+          if __name__ == "__main__":
+              main()
+          EOF
