@@ -79,9 +79,9 @@ jobs:
           def main():
               # Define OpenWeatherMap API details
               openweathermap_api_url = "http://api.openweathermap.org/data/2.5/onecall/timemachine"
-              api_key = "ef7da6e160c7e355073d9ececc7a5a2c"  # Replace with your actual OpenWeatherMap API key
-              latitude = "d24e712ca4474c57758d4f3aead5f197"  # Replace with the latitude of the location
-              longitude = "ed860f76503f457deea1b056e28dbdb9"  # Replace with the longitude of the location
+              api_key = "b392564f5d870f4e630b78f1a6640084"  # Replace with your actual OpenWeatherMap API key
+              latitude = "007c95914107673f8e78288eccdf9dc7"  # Replace with the latitude of the location
+              longitude = "3214c388b6493d762f57c40b157749be"  # Replace with the longitude of the location
               
               # Fetch data from OpenWeatherMap
               openweathermap_data = fetch_data_openweathermap(openweathermap_api_url, latitude, longitude, api_key)
