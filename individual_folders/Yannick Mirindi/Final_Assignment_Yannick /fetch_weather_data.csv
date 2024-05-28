@@ -1,8 +1,22 @@
-•#Install to be able to convert from XLSX to CSV
-sudo apt-get install xlsx2csv
-•In [ ]:
-•#That copies the excel into the csv
-xlsx2csv UHIFile.xlsx --sheet 4 --delimiter ';' >> UHIFile.csv
-
-
-
+•# Download the information from the Application with Script:
+•#!/bin/bash
+GREP_OPTIONS=''
+cookiejar=(.)=(mktemp netrc.XXXXXXXXXX)
+chmod 0600 "$cookiejar" "$netrc" function finish {
+rm -rf "$cookiejar" "$netrc" } trap finish EXIT WGETRC="$wgetrc"
+prompt_credentials() { echo "Enter your Earthdata Login or other provider supplied
+credentials" read -p "Username (sainzpaa): " username username=${username:-sainzpaa}
+read -s -p "Password: " password
+echo "machine urs.earthdata.nasa.gov login
+password" >> $netrc
+echo }
+exit_with_error() { echo echo "Unable to Retrieve Data"
+echo echo $1 echo
+echo "https://data.lpdaac.earthdatacloud.nasa.gov/lpprodprotected/MOD11A1.061/MOD11A1.A2000056.h29v07.061.2020043121141/MOD11A
+1.A2000056.h29v07.061.2020043121141.hdf" echo exit 1
+}
+prompt_credentials detect_app_approval() {
+approved=`curl -s -b "$cookiejar" -c "$cookiejar" -L --max-redirs 5 --netrc-file "$netrc"
+https://data.lpdaac.earthdatacloud.nasa.gov/lpprodprotected/MOD11A1.061/MOD11A1.A2000056.h29v07.061.2020043121141/MOD11A
+1.A2000056.h29v07.061.2020043121141.hdf -w '\n%{http_code}' | tail -1` if [ "$approved" -
+ne "200" ] && [ "$approved" -ne "301" ] && [ "$approved" -ne "302" ]; then
