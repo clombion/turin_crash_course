@@ -1,25 +1,8 @@
-# Parsing relevant weather information
-if city_data:
-    weather_info = {
-        'City': city_data['name'],
-        'Country': city_data['sys']['country'],
-        'Temperature (C)': city_data['main']['temp'] - 273.15,  # Convert Kelvin to Celsius
-        'Humidity (%)': city_data['main']['humidity'],
-        'Wind Speed (m/s)': city_data['wind']['speed']
-    }
-
-    # Creating a DataFrame for the weather information
-    df_weather = pd.DataFrame([weather_info])
-
-    # Displaying the weather information
-    print("Weather Information:")
-    print(df_weather)
-
-    # Plotting temperature histogram
-    plt.hist(df_weather['Temperature (C)'], bins=10, color='skyblue', edgecolor='
-
-
-
+•#Install to be able to convert from XLSX to CSV
+sudo apt-get install xlsx2csv
+•In [ ]:
+•#That copies the excel into the csv
+xlsx2csv UHIFile.xlsx --sheet 4 --delimiter ';' >> UHIFile.csv
 
 
 
