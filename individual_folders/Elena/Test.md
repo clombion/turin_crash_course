@@ -1,5 +1,5 @@
 def fetch_weather_data(city_name, api_key):
-    url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={edf0946bfb5d6100cb23743b55e6163a}'
+    url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}'
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
