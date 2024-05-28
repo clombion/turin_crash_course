@@ -1,17 +1,9 @@
-if city_data:
-    weather_info = {
-        'City': city_data['name'],
-        'Country': city_data['sys']['country'],
-        'Temperature (C)': city_data['main']['temp'] - 273.15,  # Convert Kelvin to Celsius
-        'Humidity (%)': city_data['main']['humidity'],
-        'Wind Speed (m/s)': city_data['wind']['speed']
-    }
-    
-    # Creating a DataFrame for the weather information
-    df_weather = pd.DataFrame([weather_info])
-    
-    # Displaying the weather information
-    print("Weather Information:")
-    print(df_weather)
-else:
-    print("No data found for the specified city.")
+def fetch_weather_data(city_name, api_key):
+    url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={edf0946bfb5d6100cb23743b55e6163a}'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        return data
+    else:
+        print('Error fetching data:', response.status_code)
+        return None
