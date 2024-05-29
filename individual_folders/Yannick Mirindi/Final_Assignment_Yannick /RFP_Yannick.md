@@ -74,12 +74,12 @@ The hypothesis will be tested through rigorous monitoring and evaluation of UHI 
 **6.	Policy Implications:** The research findings have important policy implications for urban planning, environmental management, and public health policy in developing countries. Recommendations are made for integrating UHI mitigation strategies into urban development plans, promoting green infrastructure investments, and prioritizing community engagement in decision-making processes.
 Overall, the research findings contribute to the evidence base on effective UHI mitigation strategies in developing countries and provide valuable insights for policymakers, urban planners, and practitioners seeking to build more resilient and sustainable cities.
 
-**7 The Nominatim API was used to identify coordinates of the selected urban settlements in the Cities.csv file:
+5) The Nominatim API was used to identify coordinates of the selected urban settlements in the DRCCities.csv file:
 
-echo "lat, long, city, addresstype" > Cities_Coordinates.csv
-while read city
-do    
-     result=$(curl -s "https://nominatim.openstreetmap.org/search?q=${city}&format=json" | jq '.[] | [.lat, .lon, .name, .addresstype] | @csv')
-     result2=$(echo "${result//\"/}")
-     echo "${result2//\/}"
-done < Cities.csv >> Cities_Coordinates.csv
+       echo "lat, long, city, addresstype" > DRCCities_Coordinates.csv
+       while read city
+       do    
+            result=$(curl -s "https://nominatim.openstreetmap.org/search?q=${city}&format=json" | jq '.[] | [.lat, .lon, .name, .addresstype] | @csv')
+            result2=$(echo "${result//\"/}")
+            echo "${result2//\/}"
+       done < Cities.csv >> Cities_Coordinates.csv
