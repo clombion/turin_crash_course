@@ -73,3 +73,13 @@ The hypothesis will be tested through rigorous monitoring and evaluation of UHI 
 **5.	Challenges and Recommendations:** Despite the positive findings, the research identifies challenges such as funding constraints, policy barriers, and institutional capacity limitations. Recommendations are provided for overcoming these challenges and scaling up UHI mitigation efforts in developing countries, including policy reforms, capacity building initiatives, and multi-stakeholder partnerships.
 **6.	Policy Implications:** The research findings have important policy implications for urban planning, environmental management, and public health policy in developing countries. Recommendations are made for integrating UHI mitigation strategies into urban development plans, promoting green infrastructure investments, and prioritizing community engagement in decision-making processes.
 Overall, the research findings contribute to the evidence base on effective UHI mitigation strategies in developing countries and provide valuable insights for policymakers, urban planners, and practitioners seeking to build more resilient and sustainable cities.
+
+**7 The Nominatim API was used to identify coordinates of the selected urban settlements in the Cities.csv file:
+
+echo "lat, long, city, addresstype" > Cities_Coordinates.csv
+while read city
+do    
+     result=$(curl -s "https://nominatim.openstreetmap.org/search?q=${city}&format=json" | jq '.[] | [.lat, .lon, .name, .addresstype] | @csv')
+     result2=$(echo "${result//\"/}")
+     echo "${result2//\/}"
+done < Cities.csv >> Cities_Coordinates.csv
