@@ -1,5 +1,5 @@
 # Mitigating Urban Heat Islands for Vulnerable Populations in Developing Countries
-
+![cover](https://github.com/clombion/turin_crash_course/blob/489628cf7948714383aa00bd9ed9ebf749bda021/individual_folders/Yamen/Final%20Submition/Dashboard.png)
 ### Introduction
 The term "urban heat island" refers to a phenomenon that occurs when temperatures in urban areas are higher than those in the areas that surround them (suburban area). The gradually increase in temperature in urban areas would affect many vulnerable communities around the world including homeless and refugees who lack adequate shelter and resources to cope up with extreme heat especially in the MENA region.
 
@@ -182,7 +182,9 @@ The lack of accurate and essential information, such as population figures and d
 **Solution Development**
 
 **•	Solar-Powered Cooling Stations:** Establish solar-powered cooling stations in key urban areas. These stations can provide a cool, shaded place for people to rest, charge their phones, and access clean drinking water. This solution is ideal for the MENA region and Africa, taking advantage of the abundant sunlight to offer relief from high temperatures and improve quality of life.
+
 **•	Community-Driven Reforestation Programs:** Launch community-led reforestation projects in urban and peri-urban areas. By involving local residents and refugees, these programs can increase tree cover, providing natural cooling and fostering a sense of community ownership and responsibility for the environment.
+
 **•	Climate-Resilient Infrastructure:** Develop climate-resilient infrastructure such as permeable pavements and green roofs that integrate local materials and traditional building practices. These can help manage stormwater, reduce flooding, and lower temperatures, making urban areas more adaptable to extreme weather conditions.
 
 
